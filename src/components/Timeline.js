@@ -1,6 +1,10 @@
 import React from 'react';
 import Avatar from '../static/images/avatar.svg';
-import Graduation from '../static/images/graduation-hat.svg';
+import SecondaryIcon from '../static/images/secondary.svg';
+import HighSchoolIcon from '../static/images/high-school.svg';
+import InternshipIcon from '../static/images/internship.svg';
+import GraduationIcon from '../static/images/graduation-hat.svg';
+import JobIcon from '../static/images/job.svg';
 import { Grid } from '@material-ui/core';
 
 export default function Timeline() {
@@ -125,7 +129,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={Graduation} />
+                  <img src={SecondaryIcon} />
                 </Grid>
               </Grid>
             </Grid>
@@ -137,7 +141,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={Avatar} />
+                  <img src={HighSchoolIcon} />
                 </Grid>
               </Grid>
             </Grid>
@@ -149,7 +153,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={Avatar} />
+                  <img src={InternshipIcon} />
                 </Grid>
               </Grid>
             </Grid>
@@ -161,7 +165,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={Avatar} />
+                  <img src={GraduationIcon} />
                 </Grid>
               </Grid>
             </Grid>
@@ -173,7 +177,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={Avatar} />
+                  <img src={JobIcon} />
                 </Grid>
               </Grid>
             </Grid>
@@ -250,7 +254,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item style={{ marginLeft: '-3em' }}>
-                  <li>2013</li>
+                  <li class='li-first'>2013</li>
                 </Grid>
               </Grid>
             </Grid>
@@ -262,7 +266,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item style={{ marginLeft: '-3em' }}>
-                  <li>2013</li>
+                  <li class='li-second'>2015</li>
                 </Grid>
               </Grid>
             </Grid>
@@ -274,7 +278,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item style={{ marginLeft: '-3em' }}>
-                  <li>2013</li>
+                  <li class='li-third'>2018</li>
                 </Grid>
               </Grid>
             </Grid>
@@ -286,7 +290,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item style={{ marginLeft: '-3em' }}>
-                  <li>2013</li>
+                  <li class='li-fourth'>2019</li>
                 </Grid>
               </Grid>
             </Grid>
@@ -298,7 +302,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item style={{ marginLeft: '-3em' }}>
-                  <li>2013</li>
+                  <li class='li-fifth'>2019</li>
                 </Grid>
               </Grid>
             </Grid>

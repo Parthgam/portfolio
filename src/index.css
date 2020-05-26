@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: brandon-grotesque, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,67 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Regular Italic'),
+    url('./static/font/brandon-grotesque-regular-italic-58a8a456c4724.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Thin Italic'),
+    url('./static/font/brandon-grotesque-thin-italic-58a8a3a8861fe.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Light'),
+    url('./static/font/brandon-grotesque-light-58a8a4b38001d.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Light Italic'),
+    url('./static/font/brandon-grotesque-light-italic-58a8a4ccb88be.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Medium Italic'),
+    url('./static/font/brandon-grotesque-medium-italic-58a8a3c40866a.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Bold Italic'),
+    url('./static/font/brandon-grotesque-bold-italic-58a8a48221563.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Brandon Grotesque Black'),
+    url('./static/font/brandon-grotesque-black-58a8a3e824392.woff')
+      format('woff');
 }

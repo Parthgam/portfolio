@@ -25,7 +25,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: brandon-grotesque, sans-serif;
 }
 
 body {
@@ -43,7 +43,7 @@ body {
 }
 
 h1 {
-  margin: 1em 0 0 0;
+  margin: 0em 0 0 0;
   font-size: 36px;
 }
 
@@ -90,11 +90,6 @@ h1 {
   }
 }
 
-.landing-content {
-  width: 40%;
-  margin-top: 9em;
-}
-
 .coder-img {
   float: right;
   width: 35vw;
@@ -118,6 +113,7 @@ ul {
   list-style: none;
   width: 100%;
   text-align: center;
+  color: #fff !important;
 }
 
 #breadcrumbs-two li {
@@ -128,10 +124,6 @@ ul {
   color: #444;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   position: relative;
-}
-
-#breadcrumbs-two li:hover {
-  background: #99db76;
 }
 
 #breadcrumbs-two li::before {
@@ -145,10 +137,6 @@ ul {
   left: -1em;
 }
 
-#breadcrumbs-two li:hover::before {
-  border-color: #99db76 #99db76 #99db76 transparent;
-}
-
 #breadcrumbs-two li::after {
   content: '';
   position: absolute;
@@ -160,8 +148,54 @@ ul {
   right: -1em;
 }
 
-#breadcrumbs-two li:hover::after {
-  border-left-color: #99db76;
+.li-second {
+  background-color: #4ad0c7 !important;
+}
+.li-second::before {
+  border-color: #4ad0c7 #4ad0c7 #4ad0c7 transparent !important;
+}
+.li-second::after {
+  border-color: transparent transparent transparent #4ad0c7 !important;
+}
+
+.li-third {
+  background-color: #5cdec9 !important;
+}
+.li-third::before {
+  border-color: #5cdec9 #5cdec9 #5cdec9 transparent !important;
+}
+.li-third::after {
+  border-color: transparent transparent transparent #5cdec9 !important;
+}
+
+.li-fourth {
+  background-color: #49ebd1 !important;
+}
+.li-fourth::before {
+  border-color: #49ebd1 #49ebd1 #49ebd1 transparent !important;
+}
+.li-fourth::after {
+  border-color: transparent transparent transparent #49ebd1 !important;
+}
+
+.li-fifth {
+  background-color: #72f4df !important;
+}
+.li-fifth::before {
+  border-color: #72f4df #72f4df #72f4df transparent !important;
+}
+.li-fifth::after {
+  border-color: transparent transparent transparent #72f4df !important;
+}
+
+.li-first {
+  background-color: #3bb5ae !important;
+}
+.li-first::before {
+  border-color: #3bb5ae #3bb5ae #3bb5ae transparent !important;
+}
+.li-first::after {
+  border-color: transparent transparent transparent #3bb5ae !important;
 }
 
 #breadcrumbs-two .current,
@@ -199,4 +233,28 @@ ul {
 .timeline-icon {
   text-align: center;
   padding: 20px;
+}
+
+.header-nav {
+  padding: 2em 0;
+}
+
+.contact-btn {
+  font-size: 1.1em;
+  text-decoration: none;
+  background-color: #08aca3;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 8px 30px 8px 20px;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  transition: 0.15s ease-in;
+  background-color: #4ad0c7;
+}
+
+.contact-btn-txt {
+  color: #ffffff;
+  margin-left: 0.5em;
 }
