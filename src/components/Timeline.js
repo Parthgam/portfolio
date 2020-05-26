@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from '../static/images/avatar.svg';
+import Graduation from '../static/images/graduation-hat.svg';
 import { Grid } from '@material-ui/core';
 
 export default function Timeline() {
@@ -124,7 +125,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={Avatar} />
+                  <img src={Graduation} />
                 </Grid>
               </Grid>
             </Grid>
