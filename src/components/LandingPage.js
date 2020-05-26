@@ -25,16 +25,16 @@ export default function LandingPage() {
             style={{ height: '100%' }}
           >
             <Grid item md={6} xs={12}>
-              <Grid item xs={12} md={12}>
+              <Grid item xs={12} md={12} className='animate-h1'>
                 <h1>Hey! I am Parth Gambhir</h1>
               </Grid>
-              <Grid item xs={12} md={12}>
+              <Grid item xs={12} md={12} style={{ marginTop: '1.5em' }}>
                 <p>
                   This is a sample text which can be changed according to the
                   demand of the developer.
                 </p>
               </Grid>
-              <Grid item xs={12} md={12} style={{ marginTop: '1.5em' }}>
+              <Grid item xs={12} md={12} style={{ marginTop: '2em' }}>
                 <a href='#' class='contact-btn'>
                   <svg
                     width='1.34em'

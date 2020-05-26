@@ -35,7 +35,7 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderTop: '2px dashed #BDB8B8' }}
+                  style={{ borderTop: '0.1em dashed #BDB8B8' }}
                 ></Grid>
               </Grid>
             </Grid>
@@ -43,7 +43,7 @@ export default function Timeline() {
               item
               xs={6}
               md={6}
-              style={{ borderTop: '2px dashed #BDB8B8' }}
+              style={{ borderTop: '0.1em dashed #BDB8B8' }}
             ></Grid>
             <Grid item xs={2} md={2}>
               <Grid container>
@@ -51,7 +51,7 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderTop: '2px dashed #BDB8B8' }}
+                  style={{ borderTop: '0.1em dashed #BDB8B8' }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -67,7 +67,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -78,7 +81,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -89,7 +95,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -100,7 +109,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -111,7 +123,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -192,7 +207,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -203,7 +221,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -214,7 +235,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -225,7 +249,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -236,7 +263,10 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderRight: '2px dashed #BDB8B8', height: '50px' }}
+                  style={{
+                    borderRight: '0.1em dashed #BDB8B8',
+                    height: '50px',
+                  }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
