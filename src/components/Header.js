@@ -71,16 +71,6 @@ export default function Header() {
           justify='flex-end'
           alignItems='flex-start'
         >
-          {/* <Grid item>
-            <strong>RESUME</strong>
-          </Grid>
-          <Grid item>
-            <strong>PROJECTS</strong>
-          </Grid>
-          <Grid item>
-            <strong>BLOG</strong>
-          </Grid> */}
-
           <Grid item className={classes.root}>
             <Button
               ref={anchorRef}
