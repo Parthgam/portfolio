@@ -13,10 +13,23 @@ export default function LandingPage() {
         alignItems='flex-start'
         class='header'
       >
-        <Grid item xs={12} md={12} lg={12} style={{ height: '20vh' }}>
+        <Grid
+          item
+          xs={12}
+          md={12}
+          lg={12}
+          style={{ height: '20%' }}
+          class='header-nav-container'
+        >
           <Header></Header>
         </Grid>
-        <Grid item xs={12} md={12} style={{ height: '80vh' }}>
+        <Grid
+          item
+          xs={12}
+          md={12}
+          style={{ height: '80%' }}
+          className='landing-container'
+        >
           <Grid
             container
             direction='column'
@@ -24,7 +37,7 @@ export default function LandingPage() {
             justify='center'
             style={{ height: '100%' }}
           >
-            <Grid item md={6} xs={12}>
+            <Grid item md={6} className='landing-content'>
               <Grid item xs={12} md={12} className='animate-h1'>
                 <h1>Hey! I am Parth Gambhir</h1>
               </Grid>

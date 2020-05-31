@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "skillname": "ReactJS",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "HTML",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "JavaScript",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "C++",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": ".Net Core",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "Django",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "Docker",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "AWS",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "MongoDB",
+    "svgpath": "../static/images/avatartemp"
+  },
+  {
+    "id": 1,
+    "skillname": "NodeJS",
+    "svgpath": "../static/images/avatartemp"
+  }
+]
