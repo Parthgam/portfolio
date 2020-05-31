@@ -2,6 +2,8 @@ import React from 'react';
 import { Grid } from '@material-ui/core';
 import Avatar from '../static/images/avatartemp.svg';
 import data from './data/skills.json';
+import SkillMan from '../static/images/skill-man.svg';
+import SkillManBottom from '../static/images/skill-man-bottom.svg';
 
 export default function Skills() {
   const imageurl = (url) => {
@@ -10,9 +12,9 @@ export default function Skills() {
   };
 
   return (
-    <Grid container direction='row' justify='' style={{ height: '100vh' }}>
-      <Grid item xs={1} md={2}></Grid>
-      <Grid item xs={10} md={8}>
+    <Grid container direction='row' justify='' style={{ minHeight: '100vh' }}>
+      <Grid item xs={1} md={1}></Grid>
+      <Grid item xs={10} md={10}>
         <Grid container>
           <Grid item xs={12} md={12}>
             <div className='grd-skill-heading'>SKILLS</div>
@@ -24,20 +26,29 @@ export default function Skills() {
           </Grid>
         </Grid>
         <Grid item xs={12} md={12}>
-          <Grid container direction='row'>
-            <Grid item xs={12} md={12}>
-              <Grid container direction='row' justify='space-between'>
+          <Grid
+            container
+            direction='row'
+            justify='center'
+            alignItems='flex-end'
+          >
+            <Grid item xs={2} md={2}>
+              <img src={SkillMan} />
+            </Grid>
+            <Grid item xs={10} md={10} className='skills-right'>
+              <Grid container direction='row' justify='flex-start'>
                 {data.map((value, index) => {
                   return (
-                    <Grid item lg={4} md={4} xs={6}>
+                    <Grid item lg={3} md={3} xs={12}>
                       <div className='skill-item'>
                         <Grid container>
                           <Grid item style={{ height: '2em', width: '2em' }}>
                             <img
-                              src={require('../static/images/avatartemp.svg')}
+                              src={require('../static/images/skills' +
+                                value.svgpath)}
                             />
                           </Grid>
-                          <Grid item xs={1} md={1}>
+                          {/* <Grid item xs={1} md={1}>
                             <Grid container>
                               <Grid
                                 xs={12}
@@ -53,7 +64,7 @@ export default function Skills() {
                                 style={{ height: '1em' }}
                               ></Grid>
                             </Grid>
-                          </Grid>
+                          </Grid> */}
                           <Grid item style={{ height: '2em' }}>
                             <Grid
                               container
@@ -62,9 +73,9 @@ export default function Skills() {
                               alignItems='center'
                               style={{ height: '2em' }}
                             >
-                              <Grid item style={{ marginTop: '-2px' }}>
+                              {/* <Grid item style={{ marginTop: '-2px' }}>
                                 <div class='dot'></div>
-                              </Grid>
+                              </Grid> */}
                               <Grid item style={{ marginLeft: '0.5em' }}>
                                 {value.skillname}
                               </Grid>
@@ -77,10 +88,13 @@ export default function Skills() {
                 })}
               </Grid>
             </Grid>
+            {/* <Grid item xs={12} md={12}>
+              <img src={SkillManBottom} />
+            </Grid> */}
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={1} md={2}></Grid>
+      <Grid item xs={1} md={1}></Grid>
     </Grid>
   );
 }

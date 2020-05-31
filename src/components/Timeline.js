@@ -9,7 +9,7 @@ import { Grid } from '@material-ui/core';
 
 export default function Timeline() {
   return (
-    <div>
+    <div style={{ minHeight: '100vh' }}>
       <Grid container>
         <Grid item xs={1} md={1}></Grid>
         <Grid item xs={10} md={10} style={{ textalign: 'center' }}>

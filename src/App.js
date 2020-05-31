@@ -17,6 +17,7 @@ function App() {
         <Timelinesm></Timelinesm>
       </div>
       <Skills></Skills>
+      <Footer></Footer>
     </div>
   );
 }
