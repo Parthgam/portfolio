@@ -48,23 +48,6 @@ export default function Skills() {
                                 value.svgpath)}
                             />
                           </Grid>
-                          {/* <Grid item xs={1} md={1}>
-                            <Grid container>
-                              <Grid
-                                xs={12}
-                                md={12}
-                                style={{
-                                  height: '1em',
-                                  borderBottom: '0.1em dashed #BDB8B8',
-                                }}
-                              ></Grid>
-                              <Grid
-                                xs={12}
-                                md={12}
-                                style={{ height: '1em' }}
-                              ></Grid>
-                            </Grid>
-                          </Grid> */}
                           <Grid item style={{ height: '2em' }}>
                             <Grid
                               container
@@ -73,9 +56,6 @@ export default function Skills() {
                               alignItems='center'
                               style={{ height: '2em' }}
                             >
-                              {/* <Grid item style={{ marginTop: '-2px' }}>
-                                <div class='dot'></div>
-                              </Grid> */}
                               <Grid item style={{ marginLeft: '0.5em' }}>
                                 {value.skillname}
                               </Grid>
@@ -88,9 +68,6 @@ export default function Skills() {
                 })}
               </Grid>
             </Grid>
-            {/* <Grid item xs={12} md={12}>
-              <img src={SkillManBottom} />
-            </Grid> */}
           </Grid>
         </Grid>
       </Grid>
