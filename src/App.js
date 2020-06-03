@@ -1,24 +1,17 @@
 import React from 'react';
 import './App.css';
-import LandingPage from './components/LandingPage';
-import Timeline from './components/Timeline';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
-import Timelinesm from './components/Timeline-sm';
+import Home from './components/Home';
+import Work from './components/Work';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <LandingPage></LandingPage>
-      <div className='timeline-div'>
-        <Timeline></Timeline>
-      </div>
-      <div className='timeline-sm-div'>
-        <Timelinesm></Timelinesm>
-      </div>
-      <Skills></Skills>
-      <Footer></Footer>
-    </div>
+    <Switch>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/work' component={Work} />
+      <Route exact path='/resume' component={Home} />
+      <Route exact path='/contact' component={Home} />
+    </Switch>
   );
 }
 

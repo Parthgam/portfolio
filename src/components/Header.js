@@ -9,6 +9,7 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -121,9 +122,15 @@ export default function Header() {
                         id='menu-list-grow'
                         onKeyDown={handleListKeyDown}
                       >
-                        <MenuItem onClick={handleClose}>Profile</MenuItem>
-                        <MenuItem onClick={handleClose}>My account</MenuItem>
-                        <MenuItem onClick={handleClose}>Logout</MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Link to='/work'>Work</Link>
+                        </MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Link to='/Resume'>Resume</Link>
+                        </MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Link to='/Contact'>Contact</Link>
+                        </MenuItem>
                       </MenuList>
                     </ClickAwayListener>
                   </Paper>
