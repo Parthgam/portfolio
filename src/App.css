@@ -427,7 +427,4 @@ ul {
 .work-header {
   width: 100vw;
   min-height: 100vh;
-  background-image: url(./static/images/work-bg.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
