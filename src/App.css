@@ -1,5 +1,4 @@
 .timeline {
-  /* padding: 20px; */
   margin-top: 4em;
 }
 
@@ -90,12 +89,6 @@ h1 {
     display: none;
   }
 }
-
-/* @media only screen and (max-width: 950px) {
-  .header {
-    background-image: url(./static/images/background-sm2.svg);
-  }
-} */
 
 @media only screen and (max-width: 850px) {
   .header {
@@ -279,7 +272,6 @@ ul {
   font-size: 1em;
   font-weight: 600;
   padding: 5px 10px;
-  /* text-align: center; */
 }
 
 .tim-content {
@@ -337,22 +329,6 @@ ul {
   margin-left: 0.5em;
 }
 
-/* .animate-h1 h1 {
-  animation: type 2s steps(23);
-  overflow: hidden;
-  white-space: nowrap;
-  width: 23ch;
-} */
-
-@keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 23ch;
-  }
-}
-
 .grd-skill-heading {
   font-size: 1.5em;
   font-weight: 600;
@@ -373,28 +349,10 @@ ul {
 .footer-container {
   height: 20vh;
   font-size: 0.9em;
-  /* background-image: linear-gradient(
-    to right,
-    #6fb3b8,
-    #8dc4c7,
-    #abd5d7,
-    #c7e7e7,
-    #e4f8f8
-  ); */
   background-color: #d6f4f2;
-}
-.skills-window {
-  /* background-image: url(./static/images/window.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto; */
-}
-.skills-left {
 }
 
 .skills-right {
-  /* background-color: #e4f8f8; */
   padding: 50px;
 }
 .skills-center-box {
