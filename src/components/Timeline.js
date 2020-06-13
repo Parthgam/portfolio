@@ -35,7 +35,7 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderTop: '0.1em dashed #BDB8B8' }}
+                  style={{ borderTop: '0.0937em solid #E5E7E9' }}
                 ></Grid>
               </Grid>
             </Grid>
@@ -43,7 +43,7 @@ export default function Timeline() {
               item
               xs={6}
               md={6}
-              style={{ borderTop: '0.1em dashed #BDB8B8' }}
+              style={{ borderTop: '0.0937em solid #E5E7E9' }}
             ></Grid>
             <Grid item xs={2} md={2}>
               <Grid container>
@@ -51,7 +51,7 @@ export default function Timeline() {
                   item
                   xs={6}
                   md={6}
-                  style={{ borderTop: '0.1em dashed #BDB8B8' }}
+                  style={{ borderTop: '0.0937em solid #E5E7E9' }}
                 ></Grid>
                 <Grid item xs={6} md={6}></Grid>
               </Grid>
@@ -68,7 +68,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -82,7 +82,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -96,7 +96,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -110,7 +110,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -124,7 +124,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -208,7 +208,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -222,7 +222,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -236,7 +236,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -250,7 +250,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>
@@ -264,7 +264,7 @@ export default function Timeline() {
                   xs={6}
                   md={6}
                   style={{
-                    borderRight: '0.1em dashed #BDB8B8',
+                    borderRight: '0.0937em solid #E5E7E9',
                     height: '50px',
                   }}
                 ></Grid>

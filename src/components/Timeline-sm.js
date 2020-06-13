@@ -19,7 +19,7 @@ export default function Timelinesm() {
             </div>
           </Grid>
           <Grid item xs={12} md={12} style={{ marginTop: '100px' }}>
-            <Grid container style={{ borderLeft: '0.1em dashed #BDB8B8' }}>
+            <Grid container style={{ borderLeft: '0.0937em solid #E5E7E9' }}>
               <Grid item xs={12} md={12}>
                 <Grid container>
                   <Grid
@@ -27,7 +27,7 @@ export default function Timelinesm() {
                     xs={1}
                     md={1}
                     style={{
-                      borderTop: '0.1em dashed #BDB8B8',
+                      borderTop: '0.0937em solid #E5E7E9',
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
@@ -37,7 +37,7 @@ export default function Timelinesm() {
                     item
                     xs={1}
                     md={1}
-                    style={{ borderTop: '0.1em dashed #BDB8B8' }}
+                    style={{ borderTop: '0.0937em solid #E5E7E9' }}
                   ></Grid>
                   <Grid
                     item
@@ -83,7 +83,7 @@ export default function Timelinesm() {
             </Grid>
           </Grid>
           <Grid item xs={12} md={12}>
-            <Grid container style={{ borderLeft: '0.1em dashed #BDB8B8' }}>
+            <Grid container style={{ borderLeft: '0.0937em solid #E5E7E9' }}>
               <Grid item xs={12} md={12}>
                 <Grid container>
                   <Grid
@@ -91,7 +91,7 @@ export default function Timelinesm() {
                     xs={1}
                     md={1}
                     style={{
-                      borderTop: '0.1em dashed #BDB8B8',
+                      borderTop: '0.0937em solid #E5E7E9',
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
@@ -101,72 +101,7 @@ export default function Timelinesm() {
                     item
                     xs={1}
                     md={1}
-                    style={{ borderTop: '0.1em dashed #BDB8B8' }}
-                  ></Grid>
-                  <Grid
-                    item
-                    xs={7}
-                    md={7}
-                    style={{ width: '100px', marginTop: '-1.5em' }}
-                    id='breadcrumbs-two'
-                  >
-                    <Grid
-                      container
-                      direction='row'
-                      justify='flex-start'
-                      alignItems='flex-start'
-                      style={{ overflow: 'hidden' }}
-                    >
-                      <Grid item>
-                        <li class='li-first'>2015</li>
-                      </Grid>
-                    </Grid>
-                  </Grid>
-                </Grid>
-              </Grid>
-              <Grid
-                item
-                xs={12}
-                md={12}
-                style={{
-                  paddingBottom: '70px',
-                }}
-              >
-                <Grid container>
-                  <Grid item xs={1} md={1}></Grid>
-                  <Grid item xs={11} md={11}>
-                    <div class='timeline-box'>
-                      <div class='tim-heading'>Senior Secondary</div>
-                      <div class='tim-content'>Pratap Public School</div>
-                      <div class='tim-content-sub'>Karnal, Haryana</div>
-                      <div class='tim-caption'>Percentage 94%</div>
-                    </div>
-                  </Grid>
-                </Grid>
-              </Grid>
-            </Grid>
-          </Grid>
-
-          <Grid item xs={12} md={12}>
-            <Grid container style={{ borderLeft: '0.1em dashed #BDB8B8' }}>
-              <Grid item xs={12} md={12}>
-                <Grid container>
-                  <Grid
-                    item
-                    xs={1}
-                    md={1}
-                    style={{
-                      borderTop: '0.1em dashed #BDB8B8',
-                    }}
-                  ></Grid>
-                  <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} />
-                  </Grid>
-                  <Grid
-                    item
-                    xs={1}
-                    md={1}
-                    style={{ borderTop: '0.1em dashed #BDB8B8' }}
+                    style={{ borderTop: '0.0937em solid #E5E7E9' }}
                   ></Grid>
                   <Grid
                     item
@@ -213,7 +148,7 @@ export default function Timelinesm() {
           </Grid>
 
           <Grid item xs={12} md={12}>
-            <Grid container style={{ borderLeft: '0.1em dashed #BDB8B8' }}>
+            <Grid container style={{ borderLeft: '0.0937em solid #E5E7E9' }}>
               <Grid item xs={12} md={12}>
                 <Grid container>
                   <Grid
@@ -221,7 +156,7 @@ export default function Timelinesm() {
                     xs={1}
                     md={1}
                     style={{
-                      borderTop: '0.1em dashed #BDB8B8',
+                      borderTop: '0.0937em solid #E5E7E9',
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
@@ -231,7 +166,72 @@ export default function Timelinesm() {
                     item
                     xs={1}
                     md={1}
-                    style={{ borderTop: '0.1em dashed #BDB8B8' }}
+                    style={{ borderTop: '0.0937em solid #E5E7E9' }}
+                  ></Grid>
+                  <Grid
+                    item
+                    xs={7}
+                    md={7}
+                    style={{ width: '100px', marginTop: '-1.5em' }}
+                    id='breadcrumbs-two'
+                  >
+                    <Grid
+                      container
+                      direction='row'
+                      justify='flex-start'
+                      alignItems='flex-start'
+                      style={{ overflow: 'hidden' }}
+                    >
+                      <Grid item>
+                        <li class='li-first'>2015</li>
+                      </Grid>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                md={12}
+                style={{
+                  paddingBottom: '70px',
+                }}
+              >
+                <Grid container>
+                  <Grid item xs={1} md={1}></Grid>
+                  <Grid item xs={11} md={11}>
+                    <div class='timeline-box'>
+                      <div class='tim-heading'>Senior Secondary</div>
+                      <div class='tim-content'>Pratap Public School</div>
+                      <div class='tim-content-sub'>Karnal, Haryana</div>
+                      <div class='tim-caption'>Percentage 94%</div>
+                    </div>
+                  </Grid>
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
+
+          <Grid item xs={12} md={12}>
+            <Grid container style={{ borderLeft: '0.0937em solid #E5E7E9' }}>
+              <Grid item xs={12} md={12}>
+                <Grid container>
+                  <Grid
+                    item
+                    xs={1}
+                    md={1}
+                    style={{
+                      borderTop: '0.0937em solid #E5E7E9',
+                    }}
+                  ></Grid>
+                  <Grid item style={{ marginTop: '-35px' }}>
+                    <img src={SecondaryIcon} />
+                  </Grid>
+                  <Grid
+                    item
+                    xs={1}
+                    md={1}
+                    style={{ borderTop: '0.0937em solid #E5E7E9' }}
                   ></Grid>
                   <Grid
                     item
@@ -286,7 +286,7 @@ export default function Timelinesm() {
                     xs={1}
                     md={1}
                     style={{
-                      borderTop: '0.1em dashed #BDB8B8',
+                      borderTop: '0.0937em solid #E5E7E9',
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
@@ -296,7 +296,7 @@ export default function Timelinesm() {
                     item
                     xs={1}
                     md={1}
-                    style={{ borderTop: '0.1em dashed #BDB8B8' }}
+                    style={{ borderTop: '0.0937em solid #E5E7E9' }}
                   ></Grid>
                   <Grid
                     item
