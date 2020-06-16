@@ -386,3 +386,53 @@ ul {
   width: 100vw;
   min-height: 100vh;
 }
+.menu-item {
+  font-size: 18px !important;
+  font-weight: 500;
+  margin-left: 100px !important;
+}
+
+.menu-item:hover {
+  color: #444;
+  cursor: pointer;
+}
+
+.active {
+  color: #444;
+}
+.proj-heading {
+  font-size: 32px !important;
+  color: #535461;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.proj-subheading {
+  font-size: 19px !important;
+  color: #535461;
+  text-align: center;
+  font-weight: 500;
+  padding: 0px;
+  opacity: 0.7;
+}
+
+.proj-content {
+  font-size: 17px !important;
+  color: #535461;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.git-btn {
+  padding: 5px 20px !important;
+  border: 1px solid #444;
+  border-radius: 7px;
+  background-color: #444;
+  color: #fff;
+}
+
+.git-btn:hover {
+  background-color: #535353;
+  cursor: pointer;
+}

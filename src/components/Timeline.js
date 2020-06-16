@@ -16,10 +16,20 @@ export default function Timeline() {
           <div class='timeline-icon'>
             <img src={Avatar} />
           </div>
-          <div class='timeline-caption'>
-            This is a sample text which can be changed according to the demands
-            of the developer who is going to use this portfolio
-          </div>
+          <Grid
+            container
+            direction='row'
+            justify='center'
+            alignItems='center'
+            style={{ textAlign: 'center' }}
+          >
+            <Grid item xs={12} md={6}>
+              <span class='timeline-caption'>
+                This is a sample text which can be changed according to the
+                demands of the developer who is going to use this portfolio
+              </span>
+            </Grid>
+          </Grid>
         </Grid>
         <Grid item xs={1} md={1}></Grid>
       </Grid>

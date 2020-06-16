@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import { Grid } from '@material-ui/core';
-import Image from '../static/images/proj.png';
+import Image from '../static/images/project1.png';
 import Image1 from '../static/images/proj1.png';
 
 export default function Work() {
@@ -34,16 +34,83 @@ export default function Work() {
                   item
                   xs={12}
                   md={12}
-                  style={{ padding: '10px !important' }}
+                  style={{ padding: '10px !important', textAlign: 'center' }}
                 >
                   <img
-                    src={Image1}
+                    src={Image}
                     style={{ maxWidth: '100%', height: 'auto' }}
                   />
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={6} md={6}></Grid>
+            <Grid item xs={12} md={6}>
+              <Grid
+                container
+                direction='row'
+                justify='center'
+                alignItems='center'
+                style={{ height: '100%' }}
+              >
+                <Grid item xs={12} md={12}>
+                  <Grid
+                    container
+                    direction='row'
+                    justify='center'
+                    alignItems='center'
+                  >
+                    <Grid item xs={12} md={8}>
+                      <Grid
+                        container
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item className='proj-heading'>
+                          Realtii{' '}
+                        </Grid>
+                      </Grid>
+                      <Grid
+                        container
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item className='proj-subheading'>
+                          Web Design
+                        </Grid>
+                      </Grid>
+                      <Grid
+                        container
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item className='proj-content'>
+                          I worked on the communication site for Realtii, a
+                          reimagining of how people search for real estate. The
+                          site called for lots of illustrations to convey its
+                          purpose, with a big focus on creating a welcoming
+                          feel.
+                        </Grid>
+                      </Grid>
+                      <Grid
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item>
+                          <span className='git-btn'>View on Github</span>
+                        </Grid>
+                      </Grid>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              </Grid>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
@@ -54,7 +121,74 @@ export default function Work() {
       >
         <Grid item xs={12} md={12}>
           <Grid container style={{ height: '100%' }}>
-            <Grid item xs={6} md={6}></Grid>
+            <Grid item xs={12} md={6}>
+              <Grid
+                container
+                direction='row'
+                justify='center'
+                alignItems='center'
+                style={{ height: '100%' }}
+              >
+                <Grid item xs={12} md={12}>
+                  <Grid
+                    container
+                    direction='row'
+                    justify='center'
+                    alignItems='center'
+                  >
+                    <Grid item xs={12} md={8}>
+                      <Grid
+                        container
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item className='proj-heading'>
+                          Realtii{' '}
+                        </Grid>
+                      </Grid>
+                      <Grid
+                        container
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item className='proj-subheading'>
+                          Web Design
+                        </Grid>
+                      </Grid>
+                      <Grid
+                        container
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item className='proj-content'>
+                          I worked on the communication site for Realtii, a
+                          reimagining of how people search for real estate. The
+                          site called for lots of illustrations to convey its
+                          purpose, with a big focus on creating a welcoming
+                          feel.
+                        </Grid>
+                      </Grid>
+                      <Grid
+                        container
+                        direction='row'
+                        justify='center'
+                        alignItems='center'
+                      >
+                        <Grid item>
+                          <span className='git-btn'>View on Github</span>
+                        </Grid>
+                      </Grid>
+                    </Grid>
+                  </Grid>
+                </Grid>
+              </Grid>
+            </Grid>
             <Grid item xs={12} md={6} style={{ height: '100%' }}>
               <Grid
                 container
