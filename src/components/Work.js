@@ -34,7 +34,7 @@ export default function Work() {
                   item
                   xs={12}
                   md={12}
-                  style={{ padding: '10px !important', textAlign: 'center' }}
+                  style={{ padding: '10px !important', textAlign: 'right' }}
                 >
                   <img
                     src={Image}
