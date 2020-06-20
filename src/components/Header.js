@@ -59,6 +59,7 @@ export default function Header() {
       justify='flex-start'
       alignItems='center'
       className='header-nav'
+      style={{ width: '100%' }}
     >
       <Grid item xs={6} md={6}>
         <a href='#'>
