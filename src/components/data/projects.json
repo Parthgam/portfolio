@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "projectname": "Project 1",
+    "type": "type 1",
+    "technology": ["tech 1", "tech 2"],
+    "projectdescription": "I worked on the communication site for Realtii, a reimagining of how people search for real estate. The site called for lots of illustrations to convey its purpose, with a big focus on creating a welcoming feel.",
+    "projectimage": "/project1.png",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "projectname": "Project 2",
+    "type": "type 2",
+    "technology": ["tech 1", "tech 2"],
+    "projectdescription": "I worked on the communication site for Realtii, a reimagining of how people search for real estate. The site called for lots of illustrations to convey its purpose, with a big focus on creating a welcoming feel.",
+    "projectimage": "/project1.png",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "projectname": "Project 3",
+    "type": "type 3",
+    "technology": ["tech 1", "tech 2"],
+    "projectdescription": "I worked on the communication site for Realtii, a reimagining of how people search for real estate. The site called for lots of illustrations to convey its purpose, with a big focus on creating a welcoming feel.",
+    "projectimage": "/project1.png",
+    "link": "#"
+  }
+]
