@@ -6,6 +6,7 @@ import ProjectRight from './ProjectRight';
 import Hidden from '@material-ui/core/Hidden';
 import JobIcon from '../static/images/job.svg';
 import Header from './Header';
+import Footer from './Footer';
 
 export default function Work() {
   return (
@@ -27,7 +28,7 @@ export default function Work() {
               className='header-nav-container'
               style={{ width: '100%' }}
             >
-              <Header></Header>
+              <Header ImageHeight='80px'></Header>
             </Grid>
             <Grid
               item
@@ -42,7 +43,7 @@ export default function Work() {
                 alignItems='center'
               >
                 <div
-                  className=''
+                  className='work-hd-heading'
                   style={{ width: '100%', textAlign: 'center' }}
                 >
                   WORK
@@ -51,20 +52,23 @@ export default function Work() {
                   className=''
                   style={{ width: '100%', textAlign: 'center' }}
                 >
-                  <img src={JobIcon} />
-                </div>
-                <div
-                  className=''
-                  style={{ width: '100%', textAlign: 'center' }}
-                >
-                  What I've been up to. Here's a selection of some recent work.
-                  For more up to the minute work you can visit me on dribbble or
-                  twitter.
+                  <img src={JobIcon} className='work-hd-image' />
                 </div>
               </Grid>
             </Grid>
           </Grid>
         </Grid>
+      </Grid>
+      <Grid container>
+        <div
+          className='work-hd-content'
+          style={{ width: '100%', textAlign: 'center' }}
+        >
+          <span className='work-hd-subheading'>What I've been up to.</span>{' '}
+          <br /> <br />
+          Here's a selection of some recent work. For more up to the minute work
+          you can visit me on dribbble or twitter.
+        </div>
       </Grid>
       {data.map((value, index) => {
         return index % 2 === 0 ? (
@@ -236,6 +240,7 @@ export default function Work() {
           </Hidden>
         );
       })}
+      <Footer></Footer>
     </div>
   );
 }

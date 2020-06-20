@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Header() {
+export default function Header(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
@@ -63,7 +63,7 @@ export default function Header() {
     >
       <Grid item xs={6} md={6}>
         <a href='#'>
-          <img src={Avatar} alt='ICON'></img>
+          <img src={Avatar} alt='ICON' height={props.ImageHeight}></img>
         </a>
       </Grid>
       <Grid item xs={6} md={6}>
