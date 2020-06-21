@@ -101,7 +101,7 @@ export default function Header(props) {
                 />
               </svg>
             </Button>
-            <Popper
+            {/* <Popper
               open={open}
               anchorEl={anchorRef.current}
               role={undefined}
@@ -137,7 +137,7 @@ export default function Header(props) {
                   </Paper>
                 </Grow>
               )}
-            </Popper>
+            </Popper> */}
           </Grid>
         </Grid>
       </Grid>

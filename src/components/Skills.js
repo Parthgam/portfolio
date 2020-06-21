@@ -25,17 +25,22 @@ export default function Skills() {
             <Grid item xs={1} md={1}></Grid>
           </Hidden>
           <Grid item xs={10} md={10}>
-            <Grid container>
+            <Grid
+              container
+              direction='row'
+              justify='center'
+              alignItems='center'
+            >
               <Grid item xs={12} md={12} className='grd-skill-image-box'>
                 <img src={SkillIcon} className='grd-skill-image' />
               </Grid>
               <Grid item xs={12} md={12}>
                 <div className='grd-skill-heading'>SKILLS</div>
               </Grid>
-              <Grid item xs={12} md={12}>
-                <div className='grd-skill-content'>
-                  This is a Sample text which can be changed according to the
-                  needs
+              <Grid item xs={12} md={6}>
+                <div className='text-center grd-skill-content'>
+                  This is a sample text which can be changed according to the
+                  demands of the developer who is going to use this portfolio
                 </div>
               </Grid>
             </Grid>
@@ -96,7 +101,7 @@ export default function Skills() {
                     >
                       {data.map((value, index) => {
                         return (
-                          <Grid item lg={3} md={3} xs={6}>
+                          <Grid item lg={3} md={3} sm={4} xs={6}>
                             <div className='skill-item'>
                               <Grid container>
                                 <Grid

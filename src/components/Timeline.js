@@ -5,6 +5,7 @@ import HighSchoolIcon from '../static/images/high-school.svg';
 import InternshipIcon from '../static/images/internship.svg';
 import GraduationIcon from '../static/images/graduation-hat.svg';
 import JobIcon from '../static/images/job.svg';
+import TimelineIcon from '../static/images/timeline-icon.svg';
 import { Grid } from '@material-ui/core';
 
 export default function Timeline() {
@@ -14,7 +15,7 @@ export default function Timeline() {
         <Grid item xs={1} md={1}></Grid>
         <Grid item xs={10} md={10} style={{ textalign: 'center' }}>
           <div class='timeline-icon'>
-            <img src={Avatar} />
+            <img src={TimelineIcon} width='100px' />
           </div>
           <Grid
             container
@@ -406,22 +407,6 @@ export default function Timeline() {
             </Grid>
             <Grid xs={1} md={1}></Grid>
           </Grid>
-          <svg
-            width='790'
-            height='10'
-            viewBox='0 0 790 48'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <circle cx='24' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='130' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='236' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='342' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='448' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='554' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='660' cy='24' r='24' fill='#C4C4C4' />
-            <circle cx='766' cy='24' r='24' fill='#C4C4C4' />
-          </svg>
         </div>
       </div>
     </div>
