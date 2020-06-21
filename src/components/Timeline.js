@@ -406,6 +406,22 @@ export default function Timeline() {
             </Grid>
             <Grid xs={1} md={1}></Grid>
           </Grid>
+          <svg
+            width='790'
+            height='10'
+            viewBox='0 0 790 48'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+          >
+            <circle cx='24' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='130' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='236' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='342' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='448' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='554' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='660' cy='24' r='24' fill='#C4C4C4' />
+            <circle cx='766' cy='24' r='24' fill='#C4C4C4' />
+          </svg>
         </div>
       </div>
     </div>

@@ -1,5 +1,8 @@
 .timeline {
-  margin-top: 4em;
+  margin-top: 2em;
+  padding-top: 4em;
+  background-color: #fbfcfc;
+  padding-bottom: 4em;
 }
 
 .horizontal {
@@ -111,7 +114,7 @@ h1 {
 @media only screen and (max-width: 556px) {
   .header {
     background-image: url(./static/images/background-mobile.svg);
-    height: 1100px;
+    height: 1000px;
     background-position: bottom left;
   }
   .landing-content {
@@ -133,6 +136,9 @@ h1 {
   }
   .skills-left {
     display: none;
+  }
+  .skills-right {
+    padding: 10px !important;
   }
 }
 
@@ -302,7 +308,7 @@ ul {
 
 .timeline-icon {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .header-nav {
@@ -329,11 +335,21 @@ ul {
   margin-left: 0.5em;
 }
 
+.grd-skill-image-box {
+  text-align: center;
+  padding: 30px;
+}
+
+.grd-skill-image {
+  height: 80px;
+}
+
 .grd-skill-heading {
   font-size: 1.5em;
   font-weight: 600;
   text-align: center;
-  padding: 40px;
+  padding-bottom: 40px;
+  display: none;
 }
 
 .grd-skill-content {
@@ -347,7 +363,7 @@ ul {
   text-align: center;
 }
 .footer-container {
-  height: 25vh;
+  min-height: 25vh;
   font-size: 0.9em;
   background-color: #d6f4f2;
 }
@@ -508,7 +524,8 @@ ul {
   font-weight: 500;
 }
 .footer-top-content {
-  height: 75vh;
+  min-height: 75vh;
+  padding: 2em 0em;
 }
 .text-center {
   text-align: center;
@@ -528,9 +545,14 @@ ul {
   font-size: 1.1em;
   /* font-family: cursive; */
   padding: 30px;
-  width: 50%;
   color: #525252;
 }
 .footer-btn {
   padding: 30px;
+}
+.skills-bottom-container {
+  margin-top: 2em;
+  padding-top: 4em;
+  background-color: #fbfcfc;
+  padding-bottom: 4em;
 }

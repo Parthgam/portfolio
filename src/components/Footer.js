@@ -4,73 +4,74 @@ import { Grid } from '@material-ui/core';
 export default function Footer() {
   return (
     <div>
-      <div className='footer-top-content'>
-        <Grid
+      <Grid
+        container
+        direction='column'
+        justify='center'
+        alignItems='center'
+        className='footer-top-content'
+      >
+        {/* <Grid
           container
-          direction='row'
+          direction='column'
           justify='center'
           alignItems='center'
           style={{ height: '100%' }}
-        >
-          <Grid item xs={12} md={12}>
-            <Grid
-              container
-              direction='column'
-              justify='center'
-              alignItems='center'
-            >
-              <Grid item xs={10} md={6} className='text-center footer-heading'>
-                You can Hire Me.
-              </Grid>
-              <Grid
-                item
-                xs={10}
-                md={6}
-                className='text-center footer-subheading'
-              >
-                I'm currently available for full-time and freelance work.
-              </Grid>
-              <Grid item xs={10} md={6} className='text-center footer-content'>
-                If you have a project that you want to get started, think you
-                need my help with something or just fancy saying hey, then get
-                in touch.
-              </Grid>
-              <Grid item xs={10} md={6} className='text-center footer-btn'>
-                <div>
-                  <a href='#' class='contact-btn'>
-                    <svg
-                      width='1.34em'
-                      height='0.8em'
-                      viewBox='0 0 512 390'
-                      fill='none'
-                      xmlns='http://www.w3.org/2000/svg'
-                      style={{ marginTop: '0.25em' }}
-                    >
-                      <path
-                        d='M467 0H44.9999C38.0729 0 31.5879 1.703 25.7209 4.51L255 233.789L306.389 184.402C306.389 184.402 306.393 184.397 306.394 184.395C306.395 184.393 306.399 184.391 306.399 184.391L486.286 4.514C480.418 1.705 473.929 0 467 0Z'
-                        fill='white'
-                      />
-                      <path
-                        d='M507.496 25.728L338.213 195.002L507.49 364.279C510.297 358.412 512 351.927 512 345V45C512 38.077 510.301 31.593 507.496 25.728Z'
-                        fill='white'
-                      />
-                      <path
-                        d='M4.51 25.7209C1.703 31.5879 0 38.0729 0 44.9999V345C0 351.923 1.701 358.409 4.506 364.274L173.789 195L4.51 25.7209Z'
-                        fill='white'
-                      />
-                      <path
-                        d='M317.002 216.213L265.606 265.606C262.676 268.536 258.838 270.001 255.001 270.001C251.164 270.001 247.325 268.536 244.396 265.606L195 216.211L25.714 385.486C31.582 388.295 38.071 390 45 390H467C473.927 390 480.412 388.297 486.279 385.49L317.002 216.213Z'
-                        fill='white'
-                      />
-                    </svg>
-                    <span class='contact-btn-txt'>MESSAGE ME</span>
-                  </a>
-                </div>
-              </Grid>
+        > */}
+        <Grid item xs={12} md={12}>
+          <Grid
+            container
+            direction='column'
+            justify='center'
+            alignItems='center'
+          >
+            <Grid item xs={11} md={8} className='text-center footer-heading'>
+              You can Hire Me.
+            </Grid>
+            <Grid item xs={11} md={8} className='text-center footer-subheading'>
+              I'm currently available for full-time and freelance work.
+            </Grid>
+            <Grid item xs={11} md={8} className='text-center footer-content'>
+              If you have a project that you want to get started, think you need
+              my help with something or just fancy saying hey, then get in
+              touch.
+            </Grid>
+            <Grid item xs={11} md={8} className='text-center footer-btn'>
+              <div>
+                <a href='#' class='contact-btn'>
+                  <svg
+                    width='1.34em'
+                    height='0.8em'
+                    viewBox='0 0 512 390'
+                    fill='none'
+                    xmlns='http://www.w3.org/2000/svg'
+                    style={{ marginTop: '0.25em' }}
+                  >
+                    <path
+                      d='M467 0H44.9999C38.0729 0 31.5879 1.703 25.7209 4.51L255 233.789L306.389 184.402C306.389 184.402 306.393 184.397 306.394 184.395C306.395 184.393 306.399 184.391 306.399 184.391L486.286 4.514C480.418 1.705 473.929 0 467 0Z'
+                      fill='white'
+                    />
+                    <path
+                      d='M507.496 25.728L338.213 195.002L507.49 364.279C510.297 358.412 512 351.927 512 345V45C512 38.077 510.301 31.593 507.496 25.728Z'
+                      fill='white'
+                    />
+                    <path
+                      d='M4.51 25.7209C1.703 31.5879 0 38.0729 0 44.9999V345C0 351.923 1.701 358.409 4.506 364.274L173.789 195L4.51 25.7209Z'
+                      fill='white'
+                    />
+                    <path
+                      d='M317.002 216.213L265.606 265.606C262.676 268.536 258.838 270.001 255.001 270.001C251.164 270.001 247.325 268.536 244.396 265.606L195 216.211L25.714 385.486C31.582 388.295 38.071 390 45 390H467C473.927 390 480.412 388.297 486.279 385.49L317.002 216.213Z'
+                      fill='white'
+                    />
+                  </svg>
+                  <span class='contact-btn-txt'>MESSAGE ME</span>
+                </a>
+              </div>
             </Grid>
           </Grid>
         </Grid>
-      </div>
+        {/* </Grid> */}
+      </Grid>
       <div className='footer-container'>
         <Grid
           container
@@ -80,7 +81,7 @@ export default function Footer() {
           style={{ height: '100%' }}
         >
           <Grid item>
-            <Grid container>
+            <Grid container style={{ padding: '30px' }}>
               <Grid item xs={12} md={12} style={{ padding: '20px' }}>
                 <Grid
                   container
