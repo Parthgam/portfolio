@@ -42,34 +42,49 @@ export default function Work() {
                 justify='center'
                 alignItems='center'
               >
-                <div
+                <Grid
+                  item
+                  xs={12}
+                  md={12}
                   className='work-hd-heading'
                   style={{ width: '100%', textAlign: 'center' }}
                 >
                   WORK
-                </div>
-                <div
+                </Grid>
+                <Grid
+                  item
+                  xs={12}
+                  md={12}
                   className=''
                   style={{ width: '100%', textAlign: 'center' }}
                 >
                   <img src={JobIcon} className='work-hd-image' />
-                </div>
+                </Grid>
+                <Grid
+                  item
+                  xs={10}
+                  md={5}
+                  className='work-hd-content'
+                  style={{ width: '100%', textAlign: 'center' }}
+                >
+                  <span className='work-hd-subheading'>
+                    What I've been up to.
+                  </span>{' '}
+                  <br /> <br />
+                  Here's a selection of some recent work. For more up to the
+                  minute work you can visit me on dribbble or twitter.
+                </Grid>
               </Grid>
             </Grid>
           </Grid>
         </Grid>
       </Grid>
-      <Grid container>
-        <div
-          className='work-hd-content'
-          style={{ width: '100%', textAlign: 'center' }}
-        >
-          <span className='work-hd-subheading'>What I've been up to.</span>{' '}
-          <br /> <br />
-          Here's a selection of some recent work. For more up to the minute work
-          you can visit me on dribbble or twitter.
-        </div>
-      </Grid>
+      <Grid
+        container
+        direction='row'
+        justify='center'
+        alignItems='center'
+      ></Grid>
       {data.map((value, index) => {
         return index % 2 === 0 ? (
           <Hidden mdUp>

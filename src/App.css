@@ -270,9 +270,11 @@ ul {
   word-wrap: break-word;
   border: 1px solid #e7f8f8;
   border-radius: 7px;
+  background-color: #ffffff;
 }
 
 .tim-heading {
+  /* color: #525252; */
   background-color: #e7f8f8;
   border-radius: 7px 7px 0px 0px;
   font-size: 1em;
@@ -281,6 +283,7 @@ ul {
 }
 
 .tim-content {
+  color: #525252;
   font-size: 0.9em;
   font-weight: 500;
   margin: 4px 0px;
@@ -288,6 +291,7 @@ ul {
   opacity: 90%;
 }
 .tim-content-sub {
+  color: #525252;
   margin: 4px 0px;
   font-size: 0.8em;
   font-weight: 500;
@@ -296,12 +300,14 @@ ul {
 }
 
 .tim-caption {
+  color: #525252;
   margin: 10px 0px;
   font-size: 0.8em;
   padding-left: 10px;
 }
 
 .timeline-caption {
+  color: #525252;
   text-align: center;
   padding: 20px;
 }
@@ -353,14 +359,36 @@ ul {
 }
 
 .grd-skill-content {
+  color: #525252;
   font-size: 1em;
   text-align: center;
   padding: 0 20px 20px 20px;
 }
 
 .skill-item {
-  padding: 20px 0px;
+  margin: 20px 5px;
+  padding: 5px 0px;
   text-align: center;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  background-color: #fbfcfc;
+  font-size: 0.9em;
+  height: 32px;
+  font-weight: 500;
+}
+.skill-item:hover {
+  background-color: #d5dbdb;
+}
+.skill-item-image {
+  margin-left: 5px !important;
+  height: 2em;
+  width: 2em;
+}
+.skill-item-text {
+  color: #525252 !important;
+  margin-left: 15px !important;
+  opacity: 0.9;
+  letter-spacing: 0.05em;
 }
 .footer-container {
   min-height: 25vh;
@@ -372,13 +400,13 @@ ul {
   padding: 50px;
 }
 .skills-center-box {
-  background-color: #dbf0ef;
-  border-radius: 7px;
+  background-color: #fff;
+  border-radius: 0px;
   height: min-content;
-  border-top: 7px solid #535461;
-  border-right: 5px solid #535461;
-  border-bottom: 5px solid #535461;
-  border-left: 5px solid #535461;
+  border-top: 8px solid #e5e7e9;
+  border-right: 3px solid #e5e7e9;
+  border-bottom: 3px solid #e5e7e9;
+  border-left: 3px solid #e5e7e9;
 }
 .panel-icons {
   position: absolute;
@@ -386,7 +414,7 @@ ul {
   right: 0;
 }
 .window-nav {
-  background-color: #535461;
+  background-color: #e5e7e9;
   height: 20px;
 }
 .dot {

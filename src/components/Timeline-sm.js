@@ -2,22 +2,30 @@ import React from 'react';
 import { Grid } from '@material-ui/core';
 import SecondaryIcon from '../static/images/secondary.svg';
 import Avatar from '../static/images/avatar.svg';
+import TimelineIcon from '../static/images/timeline-icon.svg';
 
 export default function Timelinesm() {
   return (
     <div>
       <Grid container>
         <Grid item xs={1} md={1}></Grid>
-        <Grid item xs={10} md={10} style={{}}>
+        <Grid item xs={12} md={12} style={{}}>
           <Grid item xs={12} md={12} style={{ textalign: 'center' }}>
             <div class='timeline-icon'>
-              <img src={Avatar} />
+              <img src={TimelineIcon} width='100px' />
             </div>
             <div class='timeline-caption'>
               This is a sample text which can be changed according to the
               demands of the developer who is going to use this portfolio
             </div>
           </Grid>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={12}
+          style={{ padding: '30px', backgroundColor: '#fbfcfc' }}
+        >
           <Grid item xs={12} md={12} style={{ marginTop: '100px' }}>
             <Grid container style={{ borderLeft: '0.0937em solid #E5E7E9' }}>
               <Grid item xs={12} md={12}>

@@ -24,7 +24,7 @@ export default function Skills() {
           <Hidden smDown>
             <Grid item xs={1} md={1}></Grid>
           </Hidden>
-          <Grid item xs={10} md={10}>
+          <Grid item xs={12} md={10}>
             <Grid
               container
               direction='row'
@@ -104,10 +104,7 @@ export default function Skills() {
                           <Grid item lg={3} md={3} sm={4} xs={6}>
                             <div className='skill-item'>
                               <Grid container>
-                                <Grid
-                                  item
-                                  style={{ height: '2em', width: '2em' }}
-                                >
+                                <Grid item className='skill-item-image'>
                                   <img
                                     src={require('../static/images/skills' +
                                       value.svgpath)}
@@ -121,7 +118,7 @@ export default function Skills() {
                                     alignItems='center'
                                     style={{ height: '2em' }}
                                   >
-                                    <Grid item style={{ marginLeft: '0.5em' }}>
+                                    <Grid item className='skill-item-text'>
                                       {value.skillname}
                                     </Grid>
                                   </Grid>
