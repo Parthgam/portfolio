@@ -400,7 +400,12 @@ export default function Timeline() {
                     <div class='tim-content'>
                       MothersonSumi Infotech and Design Ltd.
                     </div>
-                    <div class='tim-content-sub'>Noida, U.P.</div>
+                    <div
+                      class='tim-content-sub'
+                      style={{ marginBottom: '10px' }}
+                    >
+                      Noida, U.P.
+                    </div>
                   </div>
                 </Grid>
               </Grid>

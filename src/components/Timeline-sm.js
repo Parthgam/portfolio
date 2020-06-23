@@ -62,7 +62,7 @@ export default function Timelinesm() {
                       style={{ overflow: 'hidden' }}
                     >
                       <Grid item>
-                        <li class='li-first'>2015</li>
+                        <li class='li-first'>2013</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -80,10 +80,12 @@ export default function Timelinesm() {
                   <Grid item xs={1} md={1}></Grid>
                   <Grid item xs={11} md={11}>
                     <div class='timeline-box'>
-                      <div class='tim-heading'>Senior Secondary</div>
-                      <div class='tim-content'>Pratap Public School</div>
-                      <div class='tim-content-sub'>Karnal, Haryana</div>
-                      <div class='tim-caption'>Percentage 94%</div>
+                      <div class='tim-heading'>Secondary</div>
+                      <div class='tim-content'>
+                        Khalsa Mont. Sen Sec. School
+                      </div>
+                      <div class='tim-content-sub'>Bulandshahr, U.P.</div>
+                      <div class='tim-caption'>CGPI 10</div>
                     </div>
                   </Grid>
                 </Grid>
@@ -191,7 +193,7 @@ export default function Timelinesm() {
                       style={{ overflow: 'hidden' }}
                     >
                       <Grid item>
-                        <li class='li-first'>2015</li>
+                        <li class='li-first'>2018</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -209,10 +211,10 @@ export default function Timelinesm() {
                   <Grid item xs={1} md={1}></Grid>
                   <Grid item xs={11} md={11}>
                     <div class='timeline-box'>
-                      <div class='tim-heading'>Senior Secondary</div>
-                      <div class='tim-content'>Pratap Public School</div>
-                      <div class='tim-content-sub'>Karnal, Haryana</div>
-                      <div class='tim-caption'>Percentage 94%</div>
+                      <div class='tim-heading'>Internship</div>
+                      <div class='tim-content'>Groww, Bangalore</div>
+                      <div class='tim-content-sub'>MUTUAL fund startup</div>
+                      <div class='tim-caption'>2 Months</div>
                     </div>
                   </Grid>
                 </Grid>
@@ -256,7 +258,7 @@ export default function Timelinesm() {
                       style={{ overflow: 'hidden' }}
                     >
                       <Grid item>
-                        <li class='li-first'>2015</li>
+                        <li class='li-first'>2019</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -274,10 +276,10 @@ export default function Timelinesm() {
                   <Grid item xs={1} md={1}></Grid>
                   <Grid item xs={11} md={11}>
                     <div class='timeline-box'>
-                      <div class='tim-heading'>Senior Secondary</div>
-                      <div class='tim-content'>Pratap Public School</div>
-                      <div class='tim-content-sub'>Karnal, Haryana</div>
-                      <div class='tim-caption'>Percentage 94%</div>
+                      <div class='tim-heading'>Graduation</div>
+                      <div class='tim-content'>IIIT Una</div>
+                      <div class='tim-content-sub'>UNA, Himachal Pradesh</div>
+                      <div class='tim-caption'>CGPI 8.75</div>
                     </div>
                   </Grid>
                 </Grid>
@@ -321,7 +323,7 @@ export default function Timelinesm() {
                       style={{ overflow: 'hidden' }}
                     >
                       <Grid item>
-                        <li class='li-first'>2015</li>
+                        <li class='li-first'>2019</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -339,10 +341,16 @@ export default function Timelinesm() {
                   <Grid item xs={1} md={1}></Grid>
                   <Grid item xs={11} md={11}>
                     <div class='timeline-box'>
-                      <div class='tim-heading'>Senior Secondary</div>
-                      <div class='tim-content'>Pratap Public School</div>
-                      <div class='tim-content-sub'>Karnal, Haryana</div>
-                      <div class='tim-caption'>Percentage 94%</div>
+                      <div class='tim-heading'>Experience</div>
+                      <div class='tim-content'>
+                        MothersonSumi Infotech and Design Ltd.
+                      </div>
+                      <div
+                        class='tim-content-sub'
+                        style={{ marginBottom: '10px' }}
+                      >
+                        Noida, U.P.
+                      </div>
                     </div>
                   </Grid>
                 </Grid>
