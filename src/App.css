@@ -382,7 +382,7 @@ ul {
   font-weight: 500;
 }
 .skill-item:hover {
-  background-color: #d5dbdb;
+  /* background-color: #d5dbdb; */
 }
 .skill-item-image {
   margin-left: 5px !important;

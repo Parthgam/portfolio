@@ -76,7 +76,7 @@ export default function Work() {
                   selection of some recent work. For more up to the minute work
                   you can visit me on dribbble or twitter. Here's a selection of
                   some recent work. For more up to the minute work you can visit
-                  me on dribbble or twitter.
+                  me on dribbble or twitter.git a
                 </Grid>
               </Grid>
             </Grid>
