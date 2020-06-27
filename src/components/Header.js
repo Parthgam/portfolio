@@ -73,7 +73,7 @@ export default function Header(props) {
           justify='flex-end'
           alignItems='flex-start'
         >
-          <Grid item className={classes.root}>
+          <Grid item className={classes.root} style={{ zIndex: '9990' }}>
             <input id='hamburger' class='hamburger' type='checkbox' />
             <label class='hamburger' for='hamburger'>
               <i></i>
@@ -85,16 +85,20 @@ export default function Header(props) {
             <section class='drawer-list'>
               <ul>
                 <li>
-                  <a href='#'>Home</a>
+                  {/* <a href='#'>Home</a> */}
+                  <Link to='/'>Home</Link>
                 </li>
                 <li>
-                  <a href='#'>Projects</a>
+                  {/* <a href='/work'>Projects</a> */}
+                  <Link to='/work'>Work</Link>
                 </li>
                 <li>
-                  <a href='#'>Resume</a>
+                  {/* <a href='#'>Resume</a> */}
+                  <Link to='/'>Resume</Link>
                 </li>
                 <li>
-                  <a href='#'>Contact</a>
+                  {/* <a href='#'>Contact</a> */}
+                  <Link to='/contact'>Contact</Link>
                 </li>
               </ul>
             </section>
