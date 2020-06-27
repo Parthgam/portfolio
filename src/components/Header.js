@@ -74,33 +74,31 @@ export default function Header(props) {
           alignItems='flex-start'
         >
           <Grid item className={classes.root}>
-            <div id='menuArea'>
-              <input type='checkbox' id='menuToggle'></input>
+            <input id='hamburger' class='hamburger' type='checkbox' />
+            <label class='hamburger' for='hamburger'>
+              <i></i>
+              <text>
+                {/* <close>close</close> */}
+                {/* <open>menu</open> */}
+              </text>
+            </label>
+            <section class='drawer-list'>
+              <ul>
+                <li>
+                  <a href='#'>Home</a>
+                </li>
+                <li>
+                  <a href='#'>Projects</a>
+                </li>
+                <li>
+                  <a href='#'>Resume</a>
+                </li>
+                <li>
+                  <a href='#'>Contact</a>
+                </li>
+              </ul>
+            </section>
 
-              <label for='menuToggle' class='menuOpen'>
-                <div class='open'></div>
-              </label>
-
-              <div class='menu menuEffects'>
-                <label for='menuToggle'></label>
-                <div class='menuContent'>
-                  <ul>
-                    <li>
-                      <a href='#'>MENU 1</a>
-                    </li>
-                    <li>
-                      <a href='#'>MENU 2</a>
-                    </li>
-                    <li>
-                      <a href='#'>MENU 3</a>
-                    </li>
-                    <li>
-                      <a href='#'>MENU 4</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
             {/* <Button
               ref={anchorRef}
               aria-controls={open ? 'menu-list-grow' : undefined}
