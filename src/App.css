@@ -1,3 +1,7 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .timeline {
   margin-top: 2em;
   padding-top: 4em;
@@ -51,9 +55,13 @@ h1 {
   word-spacing: 0.2em;
 }
 
+.landing-content {
+  margin-top: -70px !important;
+}
+
 @media only screen and (max-height: 700px) {
   .landing-container {
-    height: 500px !important;
+    /* height: 500px !important; */
   }
 }
 
