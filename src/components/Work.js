@@ -58,7 +58,7 @@ export default function Work() {
                   className=''
                   style={{ width: '100%', textAlign: 'center' }}
                 >
-                  <img src={JobIcon} className='work-hd-image' />
+                  <img src={JobIcon} alt='job-icon' className='work-hd-image' />
                 </Grid>
                 <Grid
                   item

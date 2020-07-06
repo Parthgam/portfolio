@@ -12,7 +12,7 @@ export default function Timelinesm() {
         <Grid item xs={12} md={12} style={{}}>
           <Grid item xs={12} md={12} style={{ textalign: 'center' }}>
             <div class='timeline-icon'>
-              <img src={TimelineIcon} width='100px' />
+              <img src={TimelineIcon} alt='timeline' width='100px' />
             </div>
             <div class='timeline-caption'>
               This is a sample text which can be changed according to the
@@ -39,7 +39,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} />
+                    <img src={SecondaryIcon} alt='secondary-icon' />
                   </Grid>
                   <Grid
                     item
@@ -105,7 +105,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} />
+                    <img src={SecondaryIcon} alt='secondary-icon' />
                   </Grid>
                   <Grid
                     item
@@ -170,7 +170,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} />
+                    <img src={SecondaryIcon} alt='secondary-icon' />
                   </Grid>
                   <Grid
                     item
@@ -235,7 +235,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} />
+                    <img src={SecondaryIcon} alt='secondary-icon' />
                   </Grid>
                   <Grid
                     item
@@ -300,7 +300,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} />
+                    <img src={SecondaryIcon} alt='secondary-icon' />
                   </Grid>
                   <Grid
                     item

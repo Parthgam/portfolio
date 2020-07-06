@@ -37,7 +37,7 @@ export default function Contact() {
                   justify='center'
                   style={{ height: '100%' }}
                 >
-                  <img src={ContactImage} width='70%' height='auto' />
+                  <img src={ContactImage} width='70%' height='auto' alt='contact-icon'/>
                 </Grid>
               </Grid>
               <Grid item xs={6} md={6}></Grid>

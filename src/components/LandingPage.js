@@ -49,7 +49,7 @@ export default function LandingPage() {
                 </p>
               </Grid>
               <Grid item xs={12} md={12} style={{ marginTop: '3em' }}>
-                <a href='#' class='contact-btn'>
+                <a href='/' class='contact-btn'>
                   <svg
                     width='1.34em'
                     height='0.8em'

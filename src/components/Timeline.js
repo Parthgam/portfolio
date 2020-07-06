@@ -15,7 +15,7 @@ export default function Timeline() {
         <Grid item xs={1} md={1}></Grid>
         <Grid item xs={10} md={10} style={{ textalign: 'center' }}>
           <div class='timeline-icon'>
-            <img src={TimelineIcon} width='100px' />
+            <img src={TimelineIcon} alt='timeline-icon' width='100px' />
           </div>
           <Grid
             container
@@ -155,7 +155,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={SecondaryIcon} />
+                  <img src={SecondaryIcon} alt='secondary' />
                 </Grid>
               </Grid>
             </Grid>
@@ -167,7 +167,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={HighSchoolIcon} />
+                  <img src={HighSchoolIcon} alt='high-school' />
                 </Grid>
               </Grid>
             </Grid>
@@ -179,7 +179,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={InternshipIcon} />
+                  <img src={InternshipIcon} alt='internship-icon' />
                 </Grid>
               </Grid>
             </Grid>
@@ -191,7 +191,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={GraduationIcon} />
+                  <img src={GraduationIcon} alt='graduation-icon' />
                 </Grid>
               </Grid>
             </Grid>
@@ -203,7 +203,7 @@ export default function Timeline() {
                 alignItems='flex-start'
               >
                 <Grid item>
-                  <img src={JobIcon} />
+                  <img src={JobIcon} alt='job-icon' />
                 </Grid>
               </Grid>
             </Grid>

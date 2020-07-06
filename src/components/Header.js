@@ -62,8 +62,8 @@ export default function Header(props) {
       style={{ width: '100%' }}
     >
       <Grid item xs={6} md={6}>
-        <a href='#'>
-          <img src={Avatar} alt='ICON' height={props.ImageHeight}></img>
+        <a href='/'>
+          <img src={Avatar} alt='avatar' height={props.ImageHeight}></img>
         </a>
       </Grid>
       <Grid item xs={6} md={6}>

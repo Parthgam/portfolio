@@ -32,7 +32,7 @@ export default function Skills() {
               alignItems='center'
             >
               <Grid item xs={12} md={12} className='grd-skill-image-box'>
-                <img src={SkillIcon} className='grd-skill-image' />
+                <img src={SkillIcon} alt='skill' className='grd-skill-image' />
               </Grid>
               <Grid item xs={12} md={12}>
                 <div className='grd-skill-heading'>SKILLS</div>
@@ -67,7 +67,7 @@ export default function Skills() {
                   md={2}
                   //className='skills-left'
                 >
-                  <img src={SkillManLeft} />
+                  <img src={SkillManLeft} alt='man-left' />
                 </Grid>
               </Hidden>
               <Grid item xs={12} md={8} style={{ padding: '20px' }}>
@@ -106,6 +106,7 @@ export default function Skills() {
                               <Grid container>
                                 <Grid item className='skill-item-image'>
                                   <img
+                                  alt='skill-item'
                                     src={require('../static/images/skills' +
                                       value.svgpath)}
                                   />
@@ -139,7 +140,7 @@ export default function Skills() {
                   md={2}
                   // className='skills-left'
                 >
-                  <img src={SkillManRight} />
+                  <img src={SkillManRight} alt='man-right' />
                 </Grid>
               </Hidden>
             </Grid>
