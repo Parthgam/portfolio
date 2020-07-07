@@ -90,7 +90,7 @@ export default function Footer() {
                   alignItems="center"
                 >
                   <Grid item>
-                    <a href="https://www.linkedin.com/in/parth-gambhir-835b3011b">
+                    <a href="https://www.linkedin.com/in/parth-gambhir-835b3011b" rel="noopener noreferrer" target="_blank">
                       <svg
                         version="1.1"
                         height='1.2em'
@@ -136,7 +136,7 @@ export default function Footer() {
                     </a>
                   </Grid>
                   <Grid item>
-                    <a href="https://www.instagram.com/gamparth/">
+                    <a href="https://www.instagram.com/gamparth/" rel="noopener noreferrer" target="_blank">
                       <svg
                         width="1.2em"
                         height="1.2em"
@@ -175,7 +175,7 @@ export default function Footer() {
                     </a>
                   </Grid>
                   <Grid item>
-                    <a href="https://www.linkedin.com/in/parth-gambhir-835b3011b">
+                    <a href="https://www.linkedin.com/in/parth-gambhir-835b3011b" rel="noopener noreferrer" target="_blank">
                       <svg
                         width="1.2em"
                         height="1.2em"
@@ -198,7 +198,7 @@ export default function Footer() {
                     </a>
                   </Grid>
                   <Grid item>
-                    <a href="https://github.com/parthgam">
+                    <a href="https://github.com/parthgam" rel="noopener noreferrer" target="_blank">
                       <svg
                         width="1.2em"
                         height="1.2em"

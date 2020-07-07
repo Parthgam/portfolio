@@ -15,6 +15,14 @@ body {
   height: 50% !important;
 }
 
+.vh-min-100 {
+  min-height: 100vh !important;
+}
+
+.vh-100 {
+  height: 100vh !important;
+}
+
 .timeline {
   margin-top: 2em;
   padding-top: 4em;
@@ -354,7 +362,8 @@ ul {
   border-radius: 7px;
   color: #ffffff;
   padding: 8px 30px 8px 20px;
-  font-weight: 600;
+  font-weight: 500;
+  word-spacing: 0.2em;
 }
 
 .contact-btn:hover {
