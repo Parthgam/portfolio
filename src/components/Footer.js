@@ -26,14 +26,14 @@ export default function Footer() {
             alignItems="center"
           >
             <Grid item xs={11} md={8} className="text-center footer-heading">
-              You can Hire Me.
+              You can Hire me.
             </Grid>
             <Grid item xs={11} md={8} className="text-center footer-subheading">
-              I'm currently available for full-time and freelance work.
+              I'm currently available for full-time and freelance.
             </Grid>
             <Grid item xs={11} md={8} className="text-center footer-content">
               If you have a project that you want to get started, think you need
-              my help with something or just fancy saying hey, then get in
+              my help with something, then get in
               touch.
             </Grid>
             <Grid item xs={11} md={8} className="text-center footer-btn">

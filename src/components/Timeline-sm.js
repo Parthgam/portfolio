@@ -1,6 +1,10 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import SecondaryIcon from '../static/images/secondary.svg';
+import SecondaryIcon from "../static/images/secondary.svg";
+import HighSchoolIcon from "../static/images/high-school.svg";
+import InternshipIcon from "../static/images/internship.svg";
+import GraduationIcon from "../static/images/graduation-hat.svg";
+import JobIcon from "../static/images/job.svg";
 import Avatar from '../static/images/avatar.svg';
 import TimelineIcon from '../static/images/timeline-icon.svg';
 
@@ -105,7 +109,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} alt='secondary-icon' />
+                  <img src={HighSchoolIcon} alt="high-school" />
                   </Grid>
                   <Grid
                     item
@@ -170,7 +174,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} alt='secondary-icon' />
+                  <img src={InternshipIcon} alt="internship-icon" />
                   </Grid>
                   <Grid
                     item
@@ -235,7 +239,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} alt='secondary-icon' />
+                  <img src={GraduationIcon} alt="graduation-icon" />
                   </Grid>
                   <Grid
                     item
@@ -300,7 +304,7 @@ export default function Timelinesm() {
                     }}
                   ></Grid>
                   <Grid item style={{ marginTop: '-35px' }}>
-                    <img src={SecondaryIcon} alt='secondary-icon' />
+                  <img src={JobIcon} alt="job-icon" />
                   </Grid>
                   <Grid
                     item
