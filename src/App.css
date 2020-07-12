@@ -5,6 +5,14 @@
   --heading-font: "Titillium Web", "sans-serif";
 }
 
+.heading-font {
+  font-family: var(--heading-font);
+}
+
+.content-font {
+  font-family: var(--content-font);
+}
+
 body {
   font-family: var(--content-font);
   font-size: var(--h2-font-size);
@@ -736,7 +744,7 @@ ul {
 
 @media (min-width: 768px) {
   .drawer-list {
-    width: 20vw;
+    width: 100vw;
   }
 }
 
@@ -771,7 +779,7 @@ ul {
   text-align: center;
   display: block;
   padding: 1rem;
-  font-size: calc(24px - 0.5vw);
+  font-size:  22px;
 }
 
 @media (min-width: 768px) {

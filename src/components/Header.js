@@ -82,11 +82,11 @@ export default function Header(props) {
                 {/* <open>menu</open> */}
               </text>
             </label>
-            <section class='drawer-list'>
+            <section class='drawer-list heading-font'>
               <ul>
                 <li>
                   {/* <a href='#'>Home</a> */}
-                  <Link to='/'>Home</Link>
+                  <Link to='/'><span>HOME</span></Link>
                 </li>
                 <li>
                   {/* <a href='/work'>Projects</a> */}
