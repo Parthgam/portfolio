@@ -2,7 +2,7 @@
   {
     "id": 1,
     "skillname": "ReactJS",
-    "svgpath": "/html.svg"
+    "svgpath": "/reactjs.svg"
   },
   {
     "id": 1,
@@ -17,17 +17,12 @@
   {
     "id": 1,
     "skillname": "C++",
-    "svgpath": "/html.svg"
-  },
-  {
-    "id": 1,
-    "skillname": ".Net Core",
-    "svgpath": "/html.svg"
+    "svgpath": "/cpp.svg"
   },
   {
     "id": 1,
     "skillname": "Django",
-    "svgpath": "/html.svg"
+    "svgpath": "/django.svg"
   },
   {
     "id": 1,
@@ -37,12 +32,12 @@
   {
     "id": 1,
     "skillname": "AWS",
-    "svgpath": "/html.svg"
+    "svgpath": "/aws.svg"
   },
   {
     "id": 1,
     "skillname": "MongoDB",
-    "svgpath": "/html.svg"
+    "svgpath": "/mongodb.svg"
   },
   {
     "id": 1,
