@@ -56,7 +56,7 @@ export default function LandingPage() {
               </Grid>
               <Grid item xs={12} md={12} style={{ marginTop: "1em" }}>
                 <h5>
-                I'm a Software Developer based in Noida, U.P. having 
+                  I'm a Software Developer based in Noida, U.P. having 
                   experience of building Web Applications.
                 </h5>
               </Grid>

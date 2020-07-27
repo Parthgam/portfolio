@@ -240,6 +240,40 @@ h5 {
   .footer-subheading {
     font-size: 19px !important;
   }
+  .work-header {
+    background-size: 134% auto !important;
+  }
+  .work-hd-subheading {
+    font-size: 28px !important;
+    letter-spacing: unset !important;
+    word-spacing: unset !important;
+  }
+  .work-hd-content
+  {
+    line-height: 26px !important;
+    font-size: 16px !important;
+  }
+  .work-image {
+    width: 90% !important;
+  }
+
+  #bg-left {
+    position: absolute;
+    right: -22% !important;
+    left: unset !important;
+    bottom: 20% !important;
+    transform:rotate(270deg);
+    -webkit-transform:rotate(270deg);
+  }
+  
+  #bg-left-text {
+    font-size: 60px !important;
+    color: #F2F2F2;
+  }
+  
+  #bg-bottom {
+    display: none;
+  }
 }
 
 .coder-img {
@@ -550,10 +584,10 @@ ul {
   display: inline-block;
   margin: 2px 5px;
 }
-.work-header {
-  width: 100vw;
+/* .work-header {
+  height: 100vh;
   min-height: 100vh;
-}
+} */
 .menu-item {
   font-size: 18px !important;
   font-weight: 500;
@@ -650,20 +684,26 @@ ul {
   padding: 5px 20px 5px 20px;
 }
 .work-header {
+  height: 100vh;
+  min-height: 100vh;
   padding: 0 8%;
-  width: 100px;
-  height: auto;
   background-image: url(./static/images/work-bg.svg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: top right;
-  background-size: 60% auto;
+  background-size: 100% auto;
 }
 .work-hd-content {
-  width: 50%;
-  padding: 30px;
+  /* width: 50%;
+  padding: 30px; */
   /* font-family: cursive; */
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
+
+  color: #525252;
+  font-size: var(--h2-font-size);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+  line-height: calc(2 * var(--h2-font-size));
 }
 .work-hd-heading {
   /* font-family: cursive; */
@@ -675,8 +715,15 @@ ul {
   height: 120px;
 }
 .work-hd-subheading {
-  font-size: 1.5em;
-  font-weight: 500;
+  /* font-size: 1.5em;
+  font-weight: 500; */
+  font-family: var(--heading-font);
+  color: #525252;
+  margin: 0em 0 0 0;
+  font-size: 36px;
+  font-weight: 600;
+  /* letter-spacing: 0.08em; */
+  word-spacing: 0.3em;
 }
 .footer-top-content {
   min-height: 75vh;
@@ -1188,24 +1235,24 @@ body {
 
 #bg-left {
   position: absolute;
-  left: -15%;
-  bottom: 20%;
+  left: -12%;
+  bottom: 25%;
   transform:rotate(270deg);
   -webkit-transform:rotate(270deg);
 }
 
 #bg-left-text {
-  font-size: 156px;
+  font-size: 120px;
   color: #F2F2F2;
 }
 
 #bg-bottom {
   position: absolute;
   right: 8%;
-  bottom: -15%;
+  bottom: -13%;
 }
 
 #bg-bottom-text {
-  font-size: 156px;
+  font-size: 120px;
   color: #F2F2F2;
 }
