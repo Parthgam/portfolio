@@ -10,12 +10,15 @@ import ContactImage from '../static/images/contactus.svg';
 
 export default function Contact() {
   return (
+    <div>
     <Grid
       container
-      direction='row'
-      style={{ minHeight: '100vh', backgroundColor: '#F4F6F6' }}
+      direction="row"
+      className='contact-header'
     >
-      <Grid item xs={12} md={12} className="header-nav-container" style={{height: '20%'}}>
+      <Grid item xs={12}
+          md={12}
+          lg={12} className="header-nav-container" style={{height: '20%'}}>
         <Header></Header>
       </Grid>
       <Grid item xs={12} md={12} style={{height: '80%'}}>
@@ -26,7 +29,7 @@ export default function Contact() {
           alignItems='center'
           className='h-100'
         >
-          <Grid item xs={11} md={10} className='contact-container h-80'>
+          <Grid item xs={11} md={12} className='contact-container h-80'>
             <Grid container className='h-100'>
               <Grid
                 item
@@ -49,6 +52,8 @@ export default function Contact() {
           </Grid>
         </Grid>
       </Grid>
+      <Grid item xs={12} md={12}></Grid>
     </Grid>
+    </div>
   );
 }
