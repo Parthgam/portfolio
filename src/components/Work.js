@@ -23,9 +23,9 @@ export default function Work() {
          <div id='bg-left'>
             <p id="bg-left-text" className='heading-font'>WORK</p>
           </div>
-          <div id="bg-bottom">
+          {/* <div id="bg-bottom">
             <p id="bg-bottom-text" className='heading-font'>PROJECTS</p>
-          </div> 
+          </div>  */}
         <Grid
           item
           xs={12}
@@ -36,7 +36,7 @@ export default function Work() {
         >
           <Header ImageHeight="80px"></Header>
         </Grid>
-        <Grid item xs={12} md={12} style={{ height: "80%"}}  >
+        <Grid item xs={12} md={12} style={{ height: "80%"}} className="work-landing-container">
           <Grid
             container
             direction="row"

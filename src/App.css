@@ -76,7 +76,7 @@ body {
 }
 
 .header {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 100vh;
   padding: 0 8%;
   background-image: url(./static/images/background-lg.svg);
@@ -116,21 +116,23 @@ h5 {
 
 @media only screen and (max-height: 700px) {
   .landing-container {
-    /* height: 500px !important; */
+    height: 500px !important;
+  }
+  .work-landing-container {
+    height: 500px !important;
   }
 }
 
 @media only screen and (max-height: 600px) {
   .landing-content {
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
   }
 }
 
 @media only screen and (max-height: 700px) {
   .header {
-    height: 500px;
+    /* height: 500px; */
   }
-  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -160,6 +162,25 @@ h5 {
   }
   .timeline-sm-div {
     display: none;
+  }
+  #bg-left {
+    display: none !important;
+  }
+  #bg-bottom {
+    display: none !important;
+  }
+
+  .sup-heading {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 28px;
+    letter-spacing: unset;
+    word-spacing: unset;
+  }
+  h5 {
+    line-height: 26px;
+    font-size: 16px;
   }
 }
 
@@ -684,7 +705,7 @@ ul {
   padding: 5px 20px 5px 20px;
 }
 .work-header {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 100vh;
   padding: 0 8%;
   background-image: url(./static/images/work-bg.svg);
@@ -784,7 +805,7 @@ ul {
   padding-top: 125px;
   transition: width 475ms ease-out, transform 450ms ease,
     border-radius 0.8s 0.1s ease;
-  border-bottom-left-radius: 20vw;
+  border-bottom-left-radius: 100vw;
   background-color: #3d88ce;
   /* background-color: rgba(12, 106, 194, 0.8); */
   background-color: #83dfd9;
@@ -827,7 +848,7 @@ ul {
   text-align: center;
   display: block;
   padding: 1rem;
-  font-size:  22px;
+  font-size:  20px;
 }
 
 @media (min-width: 768px) {
@@ -1235,10 +1256,10 @@ body {
 
 #bg-left {
   position: absolute;
-  left: -12%;
+  left: 0%;
   bottom: 25%;
-  transform:rotate(270deg);
-  -webkit-transform:rotate(270deg);
+  transform-origin: left;
+  transform: translate(0%, 80%) rotate(270deg);
 }
 
 #bg-left-text {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 import TextField from '@material-ui/core/TextField';
 import Paper from '@material-ui/core/Paper';
 import Input from '@material-ui/core/Input';
@@ -14,7 +15,10 @@ export default function Contact() {
       direction='row'
       style={{ minHeight: '100vh', backgroundColor: '#F4F6F6' }}
     >
-      <Grid item xs={12} md={12}>
+      <Grid item xs={12} md={12} className="header-nav-container" style={{height: '20%'}}>
+        <Header></Header>
+      </Grid>
+      <Grid item xs={12} md={12} style={{height: '80%'}}>
         <Grid
           container
           direction='row'
@@ -26,7 +30,7 @@ export default function Contact() {
             <Grid container className='h-100'>
               <Grid
                 item
-                xs={6}
+                xs={12}
                 md={6}
                 style={{ textAlign: 'center', backgroundColor: '#F4FCFC' }}
               >
@@ -40,7 +44,7 @@ export default function Contact() {
                   <img src={ContactImage} width='70%' height='auto' alt='contact-icon'/>
                 </Grid>
               </Grid>
-              <Grid item xs={6} md={6}></Grid>
+              <Grid item xs={12} md={6}></Grid>
             </Grid>
           </Grid>
         </Grid>
