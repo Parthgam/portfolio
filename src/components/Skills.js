@@ -110,6 +110,7 @@ export default function Skills() {
                                     src={require('../static/images/skills' +
                                       value.svgpath)}
                                   />
+                                  {value.skillname}
                                 </Grid>
                                 <Grid item style={{ height: '2em' }}>
                                   <Grid
@@ -119,7 +120,7 @@ export default function Skills() {
                                     alignItems='center'
                                     style={{ height: '2em' }}
                                   >
-                                    <Grid item className='skill-item-text'>
+                                    <Grid item className='skill-item-text w-100' style={{textAlign: 'left'}}>
                                       {value.skillname}
                                     </Grid>
                                   </Grid>

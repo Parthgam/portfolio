@@ -17,15 +17,16 @@ export default function Work() {
         direction="column"
         justify="space-between"
         alignItems="flex-start"
-        class="work-header"
-        style={{ overflow: 'hidden', position:'relative'}}
+        className="work-header"
       >
+        <Grid item xs={12} md={12} style={{ height: 'inherit'}}>
          <div id='bg-left'>
             <p id="bg-left-text" className='heading-font'>WORK</p>
           </div>
           {/* <div id="bg-bottom">
             <p id="bg-bottom-text" className='heading-font'>PROJECTS</p>
           </div>  */}
+          
         <Grid
           item
           xs={12}
@@ -37,6 +38,14 @@ export default function Work() {
           <Header ImageHeight="80px"></Header>
         </Grid>
         <Grid item xs={12} md={12} style={{ height: "80%"}} className="work-landing-container">
+        <Grid
+            container
+            direction="column"
+            justify="center"
+            alignItems="center"
+            style={{ height: "100%" }}
+          >
+            <Grid item xs={12} md={12}>
           <Grid
             container
             direction="row"
@@ -60,8 +69,11 @@ export default function Work() {
               <img src={WorkMan} className='work-image' alt="work-man" width="70%" />
             </Grid>
           </Grid>
+          </Grid>
+          </Grid>
         </Grid>
         <Grid item xs={12} md={12}></Grid>
+        </Grid>
       </Grid>
       {data.map((value, index) => {
         return index % 2 === 0 ? (
