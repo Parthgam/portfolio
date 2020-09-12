@@ -717,7 +717,7 @@ ul {
 }
 .work-header {
   /* height: 100vh; */
-  min-height: 100vh !important;
+  height: 100vh !important;
   padding: 0 8%;
   background-image: url(./static/images/work-bg.svg);
   background-repeat: no-repeat;
