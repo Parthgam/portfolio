@@ -1,24 +1,14 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import Avatar from '../static/images/avatartemp.svg';
 import data from './data/skills.json';
-import SkillMan from '../static/images/skill-man.svg';
 import SkillManLeft from '../static/images/skills/man-left.svg';
 import SkillManRight from '../static/images/skills/man-right.svg';
 import SkillIcon from '../static/images/skill-main.svg';
-import BottomBase from '../static/images/skills/bottombase.svg';
 import Hidden from '@material-ui/core/Hidden';
 
-import SkillManBottom from '../static/images/skill-man-bottom.svg';
-
 export default function Skills() {
-  const imageurl = (url) => {
-    console.log(url);
-    return require(url);
-  };
-
   return (
-    <Grid container direction='row' justify='' style={{ minHeight: '100vh' }}>
+    <Grid container direction='row' style={{ minHeight: '100vh' }}>
       <Grid item xs={12} md={12}>
         <Grid container>
           <Hidden smDown>
@@ -101,7 +91,7 @@ export default function Skills() {
                     >
                       {data.map((value, index) => {
                         return (
-                          <Grid item lg={3} md={3} sm={4} xs={6}>
+                          <Grid item lg={3} md={3} sm={4} xs={6} key={index}>
                             <div className='skill-item'>
                               <Grid container>
                                 <Grid item className='skill-item-image'>

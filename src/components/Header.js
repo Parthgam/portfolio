@@ -74,15 +74,15 @@ export default function Header(props) {
           alignItems='flex-start'
         >
           <Grid item className={classes.root} style={{ zIndex: '9990' }}>
-            <input id='hamburger' class='hamburger' type='checkbox' />
-            <label class='hamburger' for='hamburger'>
+            <input id='hamburger' className='hamburger' type='checkbox' />
+            <label className='hamburger' htmlFor='hamburger'>
               <i></i>
-              <text>
-                {/* <close>close</close> */}
-                {/* <open>menu</open> */}
-              </text>
+              {/* <text>
+                <close>close</close>
+                <open>menu</open>
+              </text> */}
             </label>
-            <section class='drawer-list heading-font'>
+            <section className='drawer-list heading-font'>
               <ul>
                 <li>
                   {/* <a href='#'>Home</a> */}

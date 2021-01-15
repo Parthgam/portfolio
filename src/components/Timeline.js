@@ -1,5 +1,4 @@
 import React from "react";
-import Avatar from "../static/images/avatar.svg";
 import SecondaryIcon from "../static/images/secondary.svg";
 import HighSchoolIcon from "../static/images/high-school.svg";
 import InternshipIcon from "../static/images/internship.svg";
@@ -351,8 +350,8 @@ export default function Timeline() {
           </Grid>
 
           <Grid container direction="row" justify="center" alignItems="stretch">
-            <Grid xs={1} md={1}></Grid>
-            <Grid xs={2} md={2}>
+            <Grid item xs={1} md={1}></Grid>
+            <Grid item xs={2} md={2}>
               <Grid container>
                 <div class="timeline-box">
                   <div class="tim-heading">Secondary</div>
@@ -362,7 +361,7 @@ export default function Timeline() {
                 </div>
               </Grid>
             </Grid>
-            <Grid xs={2} md={2}>
+            <Grid item xs={2} md={2}>
               <Grid container>
                 <div class="timeline-box">
                   <div class="tim-heading">Senior Secondary</div>
@@ -372,7 +371,7 @@ export default function Timeline() {
                 </div>
               </Grid>
             </Grid>
-            <Grid xs={2} md={2}>
+            <Grid item xs={2} md={2}>
               <Grid container>
                 <div class="timeline-box">
                   <div class="tim-heading">Internship</div>
@@ -382,7 +381,7 @@ export default function Timeline() {
                 </div>
               </Grid>
             </Grid>
-            <Grid xs={2} md={2}>
+            <Grid item xs={2} md={2}>
               <Grid container>
                 <div class="timeline-box">
                   <div class="tim-heading">Graduation</div>
@@ -392,7 +391,7 @@ export default function Timeline() {
                 </div>
               </Grid>
             </Grid>
-            <Grid xs={2} md={2}>
+            <Grid item xs={2} md={2}>
               <Grid item xs={12} md={12}>
                 <Grid container>
                   <div class="timeline-box">
@@ -406,7 +405,7 @@ export default function Timeline() {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid xs={1} md={1}></Grid>
+            <Grid item xs={1} md={1}></Grid>
           </Grid>
         </div>
       </div>

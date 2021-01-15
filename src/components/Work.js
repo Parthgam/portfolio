@@ -77,7 +77,7 @@ export default function Work() {
       </Grid>
       {data.map((value, index) => {
         return index % 2 === 0 ? (
-          <Hidden mdUp>
+          <Hidden mdUp key={index}>
             <Grid
               container
               direction="row"
