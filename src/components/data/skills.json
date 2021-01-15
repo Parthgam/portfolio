@@ -6,12 +6,17 @@
   },
   {
     "id": 1,
-    "skillname": "HTML sa skjkjsasad",
+    "skillname": "Angular",
     "svgpath": "/html.svg"
   },
   {
     "id": 1,
-    "skillname": "JavaScript sadasdasdasd",
+    "skillname": "HTML",
+    "svgpath": "/html.svg"
+  },
+  {
+    "id": 1,
+    "skillname": "JavaScript",
     "svgpath": "/js.svg"
   },
   {

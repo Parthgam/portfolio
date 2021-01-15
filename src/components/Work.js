@@ -19,7 +19,7 @@ export default function Work() {
         alignItems="flex-start"
         className="work-header"
       >
-        <Grid item xs={12} md={12} style={{ height: 'inherit'}}>
+        <Grid item xs={12} md={12} lg={12} xl={12} style={{ height: 'inherit', width: '100%'}}>
          <div id='bg-left'>
             <p id="bg-left-text" className='heading-font'>WORK</p>
           </div>
@@ -31,13 +31,13 @@ export default function Work() {
           item
           xs={12}
           md={12}
-          lg={12}
+          lg={12} xl={12}
           style={{ height: "20%" }}
           className="header-nav-container"
         >
           <Header ImageHeight="80px"></Header>
         </Grid>
-        <Grid item xs={12} md={12} style={{ height: "80%"}} className="work-landing-container">
+        <Grid item xs={12} md={12} lg={12} xl={12} style={{ height: "80%"}} className="work-landing-container">
         <Grid
             container
             direction="column"
@@ -45,15 +45,15 @@ export default function Work() {
             alignItems="center"
             style={{ height: "100%" }}
           >
-            <Grid item xs={12} md={12}>
+            <Grid item xs={12} md={12} lg={12} xl={12} style={{ width: '100%', display: 'flex', alignItems: 'center'}}>
           <Grid
             container
             direction="row"
             justify="space-between"
             alignItems="center"
-            style={{ height: "100%" }}
+            style={{ height: "80vh" }}
           >
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} lg={6} xl={6}>
               <div>
                 <span className="work-hd-subheading">
                   What I've been upto.
@@ -65,7 +65,7 @@ export default function Work() {
                 </span>
               </div>
             </Grid>
-            <Grid item xs={12} md={6} style={{ textAlign: "center" }}>
+            <Grid item xs={12} md={6} lg={6} xl={6} style={{ textAlign: "center" }}>
               <img src={WorkMan} className='work-image' alt="work-man" width="70%" />
             </Grid>
           </Grid>

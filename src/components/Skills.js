@@ -110,7 +110,6 @@ export default function Skills() {
                                     src={require('../static/images/skills' +
                                       value.svgpath)}
                                   />
-                                  {value.skillname}
                                 </Grid>
                                 <Grid item style={{ height: '2em' }}>
                                   <Grid
