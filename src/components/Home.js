@@ -11,7 +11,7 @@ function Home() {
     setIsLoading(false);
   }, []);
 
-  return !isLoading ? (
+  return (
     <div>
       <LandingPage></LandingPage>
       <div className='timeline-div'>
@@ -23,7 +23,7 @@ function Home() {
       <Skills></Skills>
       <Footer></Footer>
     </div>
-  ): ( <h1>Laoding...</h1>);
+  );
 }
 
 export default Home;

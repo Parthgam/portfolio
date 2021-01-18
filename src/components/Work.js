@@ -61,7 +61,7 @@ export default function Work() {
                 <br /> <br />
                 <span className="work-hd-content">
                   Here's a selection of some recent work. For more up to the
-                  minute work you can visit me on dribbble or twitter.
+                  minute work you can visit me on GitHub.
                 </span>
               </div>
             </Grid>
