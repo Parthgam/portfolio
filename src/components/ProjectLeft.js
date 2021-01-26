@@ -22,7 +22,7 @@ export default function ProjectRight(props) {
       >
         <img
           alt={`${props.id}`}
-          src={require('../static/images' + props.ProjectImage)}
+          src={require('../assets/images' + props.ProjectImage)}
           style={{ maxWidth: '100%', height: 'auto' }}
         />
       </Grid>

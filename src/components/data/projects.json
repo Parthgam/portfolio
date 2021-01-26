@@ -1,29 +1,38 @@
 [
   {
     "id": 1,
-    "projectname": "Project 1",
+    "projectname": "COVID-19 India Tracker",
     "type": "type 1",
     "technology": ["tech 1", "tech 2"],
-    "projectdescription": "I worked on the communication site for Realtii, a reimagining of how people search for real estate. The site called for lots of illustrations to convey its purpose, with a big focus on creating a welcoming feel.",
+    "projectdescription": "During the tough times of Covid-19 when there was national lockdown in our country I utilised this time to develop Covid-19 India Tracker. Main motive of this application is to track Indian Covid-19 cases. Technologies used to develop this web application is ReactJs, Material UI and crowd sourced APIs.",
     "projectimage": "/project1.png",
-    "link": "#"
+    "link": "https://github.com/Parthgam/COVID-19_India_Tracker"
   },
   {
     "id": 2,
-    "projectname": "Project 2",
+    "projectname": "Business Performance Analysis (BPA)",
     "type": "type 2",
     "technology": ["tech 1", "tech 2"],
-    "projectdescription": "I worked on the communication site for Realtii, a reimagining of how people search for real estate. The site called for lots of illustrations to convey its purpose, with a big focus on creating a welcoming feel.",
-    "projectimage": "/project1.png",
-    "link": "#"
+    "projectdescription": "BPA (Business Performance Analysis) application is developed using Python, Django, Matplotlib and MySQL for the purpose of analysing the PBT (Profit Before Tax) budgeted entries with the actual entries. In performance analysis section user can analyse the records by adjusting different entries and generate report. Records can be entered manually or by importing from Excel file. ",
+    "projectimage": "/project2.png",
+    "link": ""
   },
   {
     "id": 3,
-    "projectname": "Project 3",
+    "projectname": "Document Management System",
     "type": "type 3",
     "technology": ["tech 1", "tech 2"],
-    "projectdescription": "I worked on the communication site for Realtii, a reimagining of how people search for real estate. The site called for lots of illustrations to convey its purpose, with a big focus on creating a welcoming feel.",
-    "projectimage": "/project1.png",
-    "link": "#"
+    "projectdescription": "Document Management System will integrate all management documents, their collaboration, approval  and an advanced search functionality into one easy to use solution. DMS will be used to control the policies and procedures that are used throughout the organization. DMS is a web-based application developed using Angular 10 in front-end and .Net in backend. ",
+    "projectimage": "/project3.png",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "projectname": "Portfolio Website",
+    "type": "type 3",
+    "technology": ["tech 1", "tech 2"],
+    "projectdescription": "I am currently working on my portfolio website and it’s completed up to an extent for the sole purpose of showcasing my skills, recent works and contact me. Moreover, Blogs and Contact through email functionalities is under process. I have developed this website using React Js and planning to use headless CMS for blog and content management purpose.",
+    "projectimage": "/project4.png",
+    "link": ""
   }
 ]

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import data from './data/skills.json';
-import SkillManLeft from '../static/images/skills/man-left.svg';
-import SkillManRight from '../static/images/skills/man-right.svg';
-import SkillIcon from '../static/images/skill-main.svg';
+import SkillManLeft from '../assets/images/skills/man-left.svg';
+import SkillManRight from '../assets/images/skills/man-right.svg';
+import SkillIcon from '../assets/images/skill-main.svg';
 import Hidden from '@material-ui/core/Hidden';
 
 export default function Skills() {
@@ -97,7 +97,7 @@ export default function Skills() {
                                 <Grid item className='skill-item-image'>
                                   <img
                                   alt='skill-item'
-                                    src={require('../static/images/skills' +
+                                    src={require('../assets/images/skills' +
                                       value.svgpath)}
                                   />
                                 </Grid>

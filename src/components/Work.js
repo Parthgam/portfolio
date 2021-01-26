@@ -4,10 +4,10 @@ import data from "./data/projects.json";
 import ProjectLeft from "./ProjectLeft";
 import ProjectRight from "./ProjectRight";
 import Hidden from "@material-ui/core/Hidden";
-import JobIcon from "../static/images/job.svg";
-import WorkMan from "../static/images/work-man.svg";
-import Header from "./Header";
-import Footer from "./Footer";
+import JobIcon from "../assets/images/job.svg";
+import WorkMan from "../assets/images/work-man.svg";
+import Header from "./layouts/Header";
+import Footer from "./layouts/Footer";
 
 export default function Work() {
   return (

@@ -83,7 +83,7 @@ body {
   height: 100vh;
   min-height: 100vh !important;
   padding: 0 8%;
-  background-image: url(./static/images/background-lg.svg);
+  background-image: url(./assets/images/background-lg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top right;
@@ -147,7 +147,7 @@ h5 {
 
 @media only screen and (min-width: 1200px) {
   .header {
-    background-image: url(./static/images/background-lg.svg);
+    background-image: url(./assets/images/background-lg.svg);
   }
   .timeline-sm-div {
     display: none;
@@ -156,7 +156,7 @@ h5 {
 
 @media only screen and (max-width: 1200px) {
   .header {
-    background-image: url(./static/images/background-md.svg);
+    background-image: url(./assets/images/background-md.svg);
   }
   .timeline-sm-div {
     display: none;
@@ -165,7 +165,7 @@ h5 {
 
 @media only screen and (max-width: 1100px) {
   .header {
-    background-image: url(./static/images/background-sm.svg);
+    background-image: url(./assets/images/background-sm.svg);
   }
   .landing-content {
     width: 50% !important;
@@ -196,7 +196,7 @@ h5 {
 
 @media only screen and (max-width: 850px) {
   .header {
-    background-image: url(./static/images/background-xs.svg);
+    background-image: url(./assets/images/background-xs.svg);
   }
   .landing-content {
     width: 50% !important;
@@ -223,7 +223,7 @@ h5 {
     font-size: 16px;
   }
   .header {
-    background-image: url(./static/images/background-mobile.svg);
+    background-image: url(./assets/images/background-mobile.svg);
     height: 1000px;
     background-position: bottom left;
   }
@@ -446,6 +446,7 @@ ul {
   border-radius: 7px;
   background-color: #ffffff;
   padding-bottom: 5px;
+  box-shadow: 0 2px 8px rgb(25 30 42 / 12%);
 }
 
 .tim-heading {
@@ -572,6 +573,12 @@ ul {
   /* margin-left: 5px !important; */
   height: 2em;
   width: 2em;
+  /* width: 35px;
+  height: 35px; */
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgb(25 30 42 / 12%);
+  margin-left: 4px !important;
 }
 .skill-item-text {
   font-family: var(--heading-font);
@@ -597,6 +604,7 @@ ul {
   border-right: 3px solid #e5e7e9;
   border-bottom: 3px solid #e5e7e9;
   border-left: 3px solid #e5e7e9;
+  box-shadow: 0 2px 8px rgb(25 30 42 / 12%);
 }
 .panel-icons {
   position: absolute;
@@ -719,7 +727,7 @@ ul {
   /* height: 100vh; */
   height: 100vh !important;
   padding: 0 8%;
-  background-image: url(./static/images/work-bg.svg);
+  background-image: url(./assets/images/work-bg.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 100% auto;

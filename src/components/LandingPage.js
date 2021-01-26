@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./layouts/Header";
 import { Grid } from "@material-ui/core";
-import CoderImage from "../static/images/coder-lg.svg";
+import CoderImage from "../assets/images/coder-lg.svg";
 
 export default function LandingPage() {
   return (

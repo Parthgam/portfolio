@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import LandingPage from './LandingPage';
 import Timeline from './Timeline';
 import Skills from './Skills';
-import Footer from './Footer';
+import Footer from './layouts/Footer';
 import Timelinesm from './Timeline-sm';
 
 function Home() {

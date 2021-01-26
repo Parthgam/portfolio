@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header';
+import Header from './layouts/Header';
 import TextField from '@material-ui/core/TextField';
 import Paper from '@material-ui/core/Paper';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { Grid } from '@material-ui/core';
-import ContactImage from '../static/images/contactus.svg';
+import ContactImage from '../assets/images/contactus.svg';
 
 export default function Contact() {
   return (

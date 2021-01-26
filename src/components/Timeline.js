@@ -1,10 +1,10 @@
 import React from "react";
-import SecondaryIcon from "../static/images/secondary.svg";
-import HighSchoolIcon from "../static/images/high-school.svg";
-import InternshipIcon from "../static/images/internship.svg";
-import GraduationIcon from "../static/images/graduation-hat.svg";
-import JobIcon from "../static/images/job.svg";
-import TimelineIcon from "../static/images/timeline-icon.svg";
+import SecondaryIcon from "../assets/images/secondary.svg";
+import HighSchoolIcon from "../assets/images/high-school.svg";
+import InternshipIcon from "../assets/images/internship.svg";
+import GraduationIcon from "../assets/images/graduation-hat.svg";
+import JobIcon from "../assets/images/job.svg";
+import TimelineIcon from "../assets/images/timeline-icon.svg";
 import { Grid } from "@material-ui/core";
 
 export default function Timeline() {

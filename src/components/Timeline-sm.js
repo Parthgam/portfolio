@@ -1,12 +1,12 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import SecondaryIcon from "../static/images/secondary.svg";
-import HighSchoolIcon from "../static/images/high-school.svg";
-import InternshipIcon from "../static/images/internship.svg";
-import GraduationIcon from "../static/images/graduation-hat.svg";
-import JobIcon from "../static/images/job.svg";
-import Avatar from "../static/images/avatar.svg";
-import TimelineIcon from "../static/images/timeline-icon.svg";
+import SecondaryIcon from "../assets/images/secondary.svg";
+import HighSchoolIcon from "../assets/images/high-school.svg";
+import InternshipIcon from "../assets/images/internship.svg";
+import GraduationIcon from "../assets/images/graduation-hat.svg";
+import JobIcon from "../assets/images/job.svg";
+import Avatar from "../assets/images/avatar.svg";
+import TimelineIcon from "../assets/images/timeline-icon.svg";
 
 export default function Timelinesm() {
   return (
@@ -132,7 +132,7 @@ export default function Timelinesm() {
                       style={{ overflow: "hidden" }}
                     >
                       <Grid item>
-                        <li class="li-first">2015</li>
+                        <li class="li-second">2015</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -197,7 +197,7 @@ export default function Timelinesm() {
                       style={{ overflow: "hidden" }}
                     >
                       <Grid item>
-                        <li class="li-first">2018</li>
+                        <li class="li-third">2018</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -262,7 +262,7 @@ export default function Timelinesm() {
                       style={{ overflow: "hidden" }}
                     >
                       <Grid item>
-                        <li class="li-first">2019</li>
+                        <li class="li-fourth">2019</li>
                       </Grid>
                     </Grid>
                   </Grid>
@@ -327,7 +327,7 @@ export default function Timelinesm() {
                       style={{ overflow: "hidden" }}
                     >
                       <Grid item>
-                        <li class="li-first">2019</li>
+                        <li class="li-fifth">2019</li>
                       </Grid>
                     </Grid>
                   </Grid>
