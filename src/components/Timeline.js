@@ -25,8 +25,7 @@ export default function Timeline() {
           >
             <Grid item xs={12} md={6}>
               <span class="timeline-caption">
-                This is a sample text which can be changed according to the
-                demands of the developer who is going to use this portfolio
+                It's been a fantastic journey with ups and downs, have a look at my Timeline.
               </span>
             </Grid>
           </Grid>

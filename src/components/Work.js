@@ -110,7 +110,9 @@ export default function Work() {
                       ProjectType={value.type}
                       ProjectDescription={value.projectdescription}
                       ProjectLink={value.link}
+                      ProjectGithubLink={value.githubLink}
                       ProjectImage={value.projectimage}
+                      ProjectLive={value.isLive}
                     ></ProjectRight>
                   </Grid>
                 </Grid>
@@ -151,7 +153,9 @@ export default function Work() {
                       ProjectType={value.type}
                       ProjectDescription={value.projectdescription}
                       ProjectLink={value.link}
+                      ProjectGithubLink={value.githubLink}
                       ProjectImage={value.projectimage}
+                      ProjectLive={value.isLive}
                     ></ProjectRight>
                   </Grid>
                 </Grid>
@@ -195,7 +199,9 @@ export default function Work() {
                       ProjectType={value.type}
                       ProjectDescription={value.projectdescription}
                       ProjectLink={value.link}
+                      ProjectGithubLink={value.githubLink}
                       ProjectImage={value.projectimage}
+                      ProjectLive={value.isLive}
                     ></ProjectRight>
                   </Grid>
                 </Grid>
@@ -226,7 +232,9 @@ export default function Work() {
                       ProjectType={value.type}
                       ProjectDescription={value.projectdescription}
                       ProjectLink={value.link}
+                      ProjectGithubLink={value.githubLink}
                       ProjectImage={value.projectimage}
+                      ProjectLive={value.isLive}
                     ></ProjectRight>
                   </Grid>
                   <Grid item md={6} style={{ height: "100%" }}>

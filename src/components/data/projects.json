@@ -6,7 +6,9 @@
     "technology": ["tech 1", "tech 2"],
     "projectdescription": "During the tough times of Covid-19 when there was national lockdown in our country I utilised this time to develop Covid-19 India Tracker. Main motive of this application is to track Indian Covid-19 cases. Technologies used to develop this web application is ReactJs, Material UI and crowd sourced APIs.",
     "projectimage": "/project1.png",
-    "link": "https://github.com/Parthgam/COVID-19_India_Tracker"
+    "link": "https://covid19project.netlify.app/",
+    "githubLink": "https://github.com/Parthgam/COVID-19_India_Tracker",
+    "isLive": true
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "technology": ["tech 1", "tech 2"],
     "projectdescription": "BPA (Business Performance Analysis) application is developed using Python, Django, Matplotlib and MySQL for the purpose of analysing the PBT (Profit Before Tax) budgeted entries with the actual entries. In performance analysis section user can analyse the records by adjusting different entries and generate report. Records can be entered manually or by importing from Excel file. ",
     "projectimage": "/project2.png",
-    "link": ""
+    "link": "#",
+    "githubLink": "#",
+    "isLive": false
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "technology": ["tech 1", "tech 2"],
     "projectdescription": "Document Management System will integrate all management documents, their collaboration, approval  and an advanced search functionality into one easy to use solution. DMS will be used to control the policies and procedures that are used throughout the organization. DMS is a web-based application developed using Angular 10 in front-end and .Net in backend. ",
     "projectimage": "/project3.png",
-    "link": ""
+    "link": "#",
+    "githubLink": "#",
+    "isLive": false
   },
   {
     "id": 4,
@@ -33,6 +39,8 @@
     "technology": ["tech 1", "tech 2"],
     "projectdescription": "I am currently working on my portfolio website and it’s completed up to an extent for the sole purpose of showcasing my skills, recent works and contact me. Moreover, Blogs and Contact through email functionalities is under process. I have developed this website using React Js and planning to use headless CMS for blog and content management purpose.",
     "projectimage": "/project4.png",
-    "link": ""
+    "link": "https://parthgambhir.com/",
+    "githubLink": "#",
+    "isLive": true
   }
 ]

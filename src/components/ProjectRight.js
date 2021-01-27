@@ -31,9 +31,9 @@ export default function ProjectRight(props) {
               justify='center'
               alignItems='center'
             >
-              <Grid item className='proj-subheading'>
+              {/* <Grid item className='proj-subheading'>
                 {props.ProjectType}
-              </Grid>
+              </Grid> */}
             </Grid>
             <Grid
               container
@@ -52,8 +52,19 @@ export default function ProjectRight(props) {
               justify='center'
               alignItems='center'
             >
+              {props.ProjectLive &&
+                <Grid item>
+                  <div className='git-btn' style={{marginRight: "30px"}}>
+                    <a style={!props.ProjectLive ? {pointerEvents: "none", textDecoration: "none",color: "#fff"} : {textDecoration: "none",color: "#fff"}} href={props.ProjectLink} target="_blank" rel="noopener noreferrer">View Live</a>
+                    </div>
+                  </Grid>
+              }
               <Grid item>
-                <div className='git-btn'>View on Github</div>
+                <div className='git-btn'>
+                <a style={!props.ProjectLive ? {pointerEvents: "none", textDecoration: "none",color: "#fff"} : {textDecoration: "none",color: "#fff"}} href={props.ProjectGithubLink} target="_blank" rel="noopener noreferrer">
+                  View on Github
+                  </a>
+                  </div>
               </Grid>
             </Grid>
           </Grid>

@@ -19,8 +19,7 @@ export default function Timelinesm() {
               <img src={TimelineIcon} alt="timeline" width="100px" />
             </div>
             <div class="timeline-caption">
-              This is a sample text which can be changed according to the
-              demands of the developer who is going to use this portfolio
+              TIt's been a fantastic journey with ups and downs, have a look at my Timeline.
             </div>
           </Grid>
         </Grid>

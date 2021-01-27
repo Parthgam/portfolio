@@ -29,8 +29,7 @@ export default function Skills() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div className='text-center grd-skill-content'>
-                  This is a sample text which can be changed according to the
-                  demands of the developer who is going to use this portfolio
+                  I do have are a very particular set of skills, which I have acquired over starting years of my career. Skills that make me a good pick for developing performance critical Web Applications.
                 </div>
               </Grid>
             </Grid>

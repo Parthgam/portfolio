@@ -94,12 +94,12 @@ export default function Header(props) {
                 </li>
                 <li>
                   {/* <a href='#'>Resume</a> */}
-                  <Link to='/'>Resume</Link>
+                  <a href={"./assets/resume/ParthGambhir.pdf"} target="_blank" rel="noopener noreferrer" download>Resume</a>
+                  {/* <Link to='/'>Resume</Link> */}
                 </li>
-                <li>
-                  {/* <a href='#'>Contact</a> */}
+                {/* <li>
                   <Link to='/contact'>Contact</Link>
-                </li>
+                </li> */}
               </ul>
             </section>
 
