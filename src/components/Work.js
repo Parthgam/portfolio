@@ -83,7 +83,7 @@ export default function Work() {
               direction="row"
               alignItems="center"
               justify="center"
-              style={{ minHeight: "100vh", backgroundColor: "#8FD2CE" }}
+              style={{ minHeight: "110vh", backgroundColor: "#EAFAF1" }}
               className="small-project"
             >
               <Grid item xs={12} md={12} style={{ height: "100%" }}>
@@ -126,7 +126,7 @@ export default function Work() {
               direction="row"
               alignItems="center"
               justify="center"
-              style={{ minHeight: "100vh", backgroundColor: "#BBE2D3" }}
+              style={{ minHeight: "110vh", backgroundColor: "#D5F5E3" }}
               className="small-project"
             >
               <Grid item xs={12} md={12} style={{ height: "100%" }}>
@@ -172,7 +172,7 @@ export default function Work() {
               direction="row"
               alignItems="center"
               justify="center"
-              style={{ minHeight: "100vh", backgroundColor: "#8FD2CE" }}
+              style={{ minHeight: "110vh", backgroundColor: "#EAFAF1" }}
               className="mid-project"
             >
               <Grid item xs={12} md={12} style={{ height: "100%" }}>
@@ -215,7 +215,7 @@ export default function Work() {
               direction="row"
               alignItems="center"
               justify="center"
-              style={{ minHeight: "100vh", backgroundColor: "#BBE2D3" }}
+              style={{ minHeight: "110vh", backgroundColor: "#D5F5E3" }}
               className="mid-project"
             >
               <Grid item xs={12} md={12} style={{ height: "100%" }}>
